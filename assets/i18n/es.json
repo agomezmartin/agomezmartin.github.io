@@ -1,0 +1,36 @@
+{
+  "msg": {
+    "E1": "El email ya existe.",
+    "U1": "Usuario registrado con éxito.",
+    "complete-data": "Inserte los datos marcados en rojo."
+  },
+  "recover-password": {
+    "email": "Email",
+    "fill-form": "Complete el formulario para restablecer la contraseña.",
+    "forgot-password": "¿Olvidó su contraseña?",
+    "return-to": "Regresar",
+    "send-reset-link": "Reiniciar contraseña",
+    "sign-in": "Iniciar sesión"
+  },
+  "sign-in": {
+    "dont-have-account": "¿No tiene cuenta?",
+    "email": "Email",
+    "forgot-password": "¿Olvidó la contraseña?",
+    "invalid-credentials": "Los datos son incorrectos.",
+    "log-in": "Iniciar sesión",
+    "password": "Contraseña",
+    "remember-me": "Recuérdame",
+    "sign-in": "Iniciar sesión",
+    "sign-up": "Regístrate"
+  },
+  "sign-up": {
+    "already-have-account": "¿Ya tiene cuenta?",
+    "email": "Email",
+    "go-to-login": "Para acceder vaya a",
+    "last-name": "Apellidos",
+    "name": "Nombre",
+    "password": "Contraseña",
+    "sign-in": "Iniciar sesión",
+    "sign-up": "Registrarse"
+  }
+}

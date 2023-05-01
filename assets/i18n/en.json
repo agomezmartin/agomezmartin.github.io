@@ -1,0 +1,36 @@
+{
+  "msg": {
+    "E1": "This email already exists",
+    "U1": "User registered succesfully",
+    "complete-data": "Fill in the missing fields"
+  },
+  "recover-password": {
+    "email": "Email",
+    "fill-form": "Please, fill in the form to reset your password",
+    "forgot-password": "forgot password?",
+    "return-to": "Return to",
+    "send-reset-link": "Send reset link",
+    "sign-in": "Sign in"
+  },
+  "sign-in": {
+    "dont-have-account": "Don't you have an account?",
+    "email": "Email",
+    "forgot-password": "Forgot password?",
+    "invalid-credentials": "Invalid credentials",
+    "log-in": "Log in",
+    "password": "Password",
+    "remember-me": "Remember me",
+    "sign-in": "Sign in",
+    "sign-up": "Sign up"
+  },
+  "sign-up": {
+    "already-have-account": "Do you have an account already?",
+    "email": "Email",
+    "go-to-login": "To access the site, go to",
+    "last-name": "Last Name",
+    "name": "Name",
+    "password": "Password",
+    "sign-in": "Sign in",
+    "sign-up": "Sign up"
+  }
+}
