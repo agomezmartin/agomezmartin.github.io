@@ -265,8 +265,8 @@ content:
 
       - layout: top-middle
         title: Django application - CRUD
-        link: github.com/agomezmartin/
-        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
+        link: https://github.com/agomezmartin/internationalization/blob/main/assets/_projects/django/CRUD_i18n/project/crud_i18n/templates/index.html
+        link_text: github.com/agomezmartin/
         additional_links:
           - title:  agomezmartin
             icon: fab fa-github
@@ -280,8 +280,8 @@ content:
 
       - layout: top-middle
         title: Django application - DB (client creation)
-        link: github.com/agomezmartin/
-        link_text: https://github.com/agomezmartin/internationalization/blob/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n/project/create_app/templates/index.html
+        link: https://github.com/agomezmartin/internationalization/blob/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n/project/create_app/templates/index.html
+        link_text: github.com/agomezmartin/
         additional_links:
           - title:  agomezmartin
             icon: fab fa-github
