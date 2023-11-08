@@ -297,6 +297,8 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
+      <img src="/images/memoq.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/sdl.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/total_commander.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/beyondcompare.jpeg" width="20%" height="10%" style="margin-bottom:5%">
@@ -304,10 +306,10 @@ content:
       <img src="/images/jira.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
       <img src="/images/mysql.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/bootstrap.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+#      <img src="/images/bootstrap.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/angular.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/java_ee.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/rest_api.png" width="20%" height="10%" style="margin-bottom:5%">
+#      <img src="/images/rest_api.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/linux.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/windows.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
