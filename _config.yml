@@ -13,7 +13,7 @@ teléfono: +34 665042685
 website: https://agomezmartin.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 # twitter_username: facespics
@@ -59,94 +59,6 @@ content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-#    EDUCATION
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: CRN
-        caption: September 2023 - In progress</br><mark>Madrid, Spain</mark> 
-        sub_title: Java Proffesional Standard Edition (ORACLE Certificate)
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          Java Standard Edition: the course covers J2SE's API and includes a 10-hours long preparation for the <mark>Oracle Certified Professional, Java SE Programme</mark>. 
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: Centro de Formación en Tecnologías de la información y las comunicaciones de Madrid
-        caption: May 2023 - July 2023</br><mark>Madrid, Spain</mark> 
-        sub_title: Data development and visualization with Python (Django and Pandas)
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          This <mark>intensive course</mark> dug into the world of data visualization using Python with a focus on <mark>Django</mark> framework.
-
-          - Django
-          - Python
-          - SQL
-          - Pandas
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: Core Networks School
-        caption: September 2022 - November 2022</br><mark>Madrid, Spain</mark> 
-        sub_title: JAVA Enterprise Edition
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          Using JAVA Enterprise Edition to develop web-based applications.
-
-          - Java
-          - SQL
-          - Angular
-          - Services
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: Imperial College London
-        caption: October 2012 - September 2013</br><mark>London, United Kingdon</mark> 
-        sub_title: MSc Scientific, Medical and Technical Translation with Translation Technology
-#        quote: >
-#          Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Imperial College London (ICL) I acquired some of my field-specific technical skills regarding <mark>translation technology</mark>.
-          
-          Project Management, Computer-Assisted-Translation tools (CAT), or Machine Translation were some of the subjects that connected most strongly with the professional world.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: Imperial College London
-        caption: April 2013 - July 2013</br><mark>London, United Kingdon</mark> 
-        sub_title: Certificate in Software Localization
-#         quote: >
-#           Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
-        description: | # this will include new lines to allow paragraphs
-          This all-encompasing <mark>Software Localization</mark> certificate provided specific technical insights into the processes involved in identifying and handling text to be extracted and localized from software products.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: University of Westeminster
-        caption: September 2009 - May 2012</br><mark>London, United Kingdon</mark> 
-        sub_title: BA in Translation (Spanish-English)
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          Carrying out a BA in Translation at University of Westminster allowed to deveop not only direct and indirect translation skills, but also intercultural awareness studies.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
 #    EXPERIENCE
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -154,6 +66,21 @@ content:
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: Inforyde
+        link: https://inforyde.com/
+        link_text: inforyde.com
+        sub_title: Junior Software Engineer
+        caption: January 2024 - In progress</br><mark>Madrid, Spain</mark> 
+      #  quote: >
+
+        description: | # this will include new lines to allow paragraphs
+
+          Design, develop, and maintain software solutions to support energy tools software.
+          Contribute to the definition of prospective products and services based on both C# and VBA.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
@@ -236,6 +163,93 @@ content:
         description: | # this will include new lines to allow paragraphs
             Helping students prepare their A Levels speaking exams.
 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+#    EDUCATION
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: CRN
+        caption: September 2023 - November 2023</br><mark>Madrid, Spain</mark> 
+        sub_title: Java Proffesional Standard Edition (ORACLE Certificate)
+#        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          Java Standard Edition: the course covers J2SE's API and includes a 10-hours long preparation for the <mark>Oracle Certified Professional, Java SE Programme</mark>. 
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: Centro de Formación en Tecnologías de la información y las comunicaciones de Madrid
+        caption: May 2023 - July 2023</br><mark>Madrid, Spain</mark> 
+        sub_title: Data development and visualization with Python (Django and Pandas)
+#        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          This <mark>intensive course</mark> dug into the world of data visualization using Python with a focus on <mark>Django</mark> framework.
+
+          - Django
+          - Python
+          - SQL
+          - Pandas
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: Core Networks School
+        caption: September 2022 - November 2022</br><mark>Madrid, Spain</mark> 
+        sub_title: JAVA Enterprise Edition
+#        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          Using JAVA Enterprise Edition to develop web-based applications.
+
+          - Java
+          - SQL
+          - Angular
+          - Services
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: Imperial College London
+        caption: October 2012 - September 2013</br><mark>London, United Kingdon</mark> 
+        sub_title: MSc Scientific, Medical and Technical Translation with Translation Technology
+#        quote: >
+#          Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Imperial College London (ICL) I acquired some of my field-specific technical skills regarding <mark>translation technology</mark>.
+          
+          Project Management, Computer-Assisted-Translation tools (CAT), or Machine Translation were some of the subjects that connected most strongly with the professional world.
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: Imperial College London
+        caption: April 2013 - July 2013</br><mark>London, United Kingdon</mark> 
+        sub_title: Certificate in Software Localization
+#         quote: >
+#           Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
+        description: | # this will include new lines to allow paragraphs
+          This all-encompasing <mark>Software Localization</mark> certificate provided specific technical insights into the processes involved in identifying and handling text to be extracted and localized from software products.
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: University of Westeminster
+        caption: September 2009 - May 2012</br><mark>London, United Kingdon</mark> 
+        sub_title: BA in Translation (Spanish-English)
+#        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          Carrying out a BA in Translation at University of Westminster allowed to deveop not only direct and indirect translation skills, but also intercultural awareness studies.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
@@ -265,8 +279,8 @@ content:
 
       - layout: top-middle
         title: Django application - CRUD
-        link: https://github.com/agomezmartin/internationalization/blob/main/assets/_projects/django/CRUD_i18n/project/crud_i18n/templates/index.html
-        link_text: github.com/agomezmartin/
+        link: github.com/agomezmartin/
+        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
         additional_links:
           - title:  agomezmartin
             icon: fab fa-github
@@ -280,8 +294,8 @@ content:
 
       - layout: top-middle
         title: Django application - DB (client creation)
-        link: https://github.com/agomezmartin/internationalization/blob/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n/project/create_app/templates/index.html
-        link_text: github.com/agomezmartin/
+        link: github.com/agomezmartin/
+        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
         additional_links:
           - title:  agomezmartin
             icon: fab fa-github
@@ -297,17 +311,16 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      <img src="/images/memoq.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/sdl.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/total_commander.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/beyondcompare.jpeg" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/regex.jpeg" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/jira.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
       <img src="/images/mysql.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/bootstrap.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/angular.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/java_ee.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/rest_api.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/linux.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/windows.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
@@ -332,7 +345,7 @@ content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-footer_show_references: false
+footer_show_references: true
 # references_title: References on request (Override references text)
 
 # Build settings
