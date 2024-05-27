@@ -53,7 +53,7 @@ about_content: | # this will include new lines to allow paragraphs
    
     As a professional, I have developed mainly at global <mark>Language Service Providers</mark> (LSP) working as a <mark>Localization Engineer</mark>. Over the years I have being able to prepare for translation a wide range of file formats into several Computer Assisted Tools, both <mark>desktop-based</mark> (Wordfast, MemoQ, or SDL Trados) and <mark>web-based</mark> (XTM). Also, I have been involved in <mark>migrations</mark> into web-based TMSs.
     
-    Familiar with the full Microsoft 365 suit, and e-learning apps, but what I love the most is preparing and engineering software-related plaint text files as it involves creating and developing parsers as well as fine-tuning <mark>regular expressions</mark>. On the techy side, I can work with macros in <mark>VBA</mark> to automate file prepp tasks for translation purposes in Excel, console-executed Python <mark>scripts</mark> and .BATs. 
+    Familiar with the full Microsoft 365 suit, and e-learning apps, but what I love the most is preparing and engineering software-related plaint text files as it involves creating and developing parsers as well as fine-tuning regular expressions.
 
     Currently working as a software developer in Madrid, Spain but would consider a relocation package.
 content:
@@ -312,20 +312,15 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
+      <img src="/images/memoq.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/sdl.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/total_commander.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/regex.jpeg" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/jira.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
-      <img src="/images/mysql.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/bootstrap.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/angular.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/java_ee.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/rest_api.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/linux.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/windows.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
       <br>
 
 
