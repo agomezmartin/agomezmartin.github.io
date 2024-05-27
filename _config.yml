@@ -51,7 +51,9 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
     Originally a Spanish national, I have lived in London for over a decade where I carried out both my studies and the onset of my professional career.
    
-    As a professional, I have developed mainly at global <mark>Language Service Providers</mark> (LSP) working as a <mark>Localization Engineer</mark>. Over the years I have being able to prepare for translation a wide range of file formats into several Computer Assisted Tools, both desktop-based (Wordfast, MemoQ, or SDL Trados) and web-based (XTM). Familiar with the full Microsoft 365 suit, and e-learning apps, but what I love the most is preparing and engineering software-related plaint text files as it involves creating and developing parsers as well as fine-tuning regular expressions.
+    As a professional, I have developed mainly at global <mark>Language Service Providers</mark> (LSP) working as a <mark>Localization Engineer</mark>. Over the years I have being able to prepare for translation a wide range of file formats into several Computer Assisted Tools, both <mark>desktop-based</mark> (Wordfast, MemoQ, or SDL Trados) and <mark>web-based</mark> (XTM). Also, I have been involved in <mark>migrations</mark> into web-based TMSs.
+    
+    Familiar with the full Microsoft 365 suit, and e-learning apps, but what I love the most is preparing and engineering software-related plaint text files as it involves creating and developing parsers as well as fine-tuning regular expressions.
 
     Currently working as a software developer in Madrid, Spain but would consider a relocation package.
 content:
