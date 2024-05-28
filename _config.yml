@@ -7,10 +7,10 @@ version: 2
 
 # Personal info
 name: Alberto Gómez-Martín
-title: Localization Engineer transitioning to Software Engineer
+title: Localization Engineer and Jr. Software Engineer
 email: agomezmartinpro@gmail.com
 teléfono: +34 665042685
-website: https://agomezmartin.github.io/
+# website: https://agomezmartin.github.io/
 
 # Dark Mode (true/false/never)
 darkmode: false
@@ -50,11 +50,12 @@ linkedin_username: albertogomezmartin
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
     Originally a Spanish national, I have lived in London for over a decade where I carried out both my studies and the onset of my professional career.
+   
+    As a professional, I have developed mainly at global <mark>Language Service Providers</mark> (LSP) working as a <mark>Localization Engineer</mark>. Over the years I have being able to prepare for translation a wide range of file formats into several Computer Assisted Tools, both <mark>desktop-based</mark> (Wordfast, MemoQ, or SDL Trados) and <mark>web-based</mark> (XTM). Also, I have been involved in <mark>migrations</mark> into web-based TMSs.
     
-    As a professional, I have developed mainly at global <mark>Language Service Providers</mark> (LSP) working as a <mark>Localization Engineer</mark>. Although coming from a translation-educated background, this position has enabled me to work hand-in-hand in the same department with IT-educated professionals where we came up together with solutions to streamline and scale the localization processes of our clients' software products.
-    
-    After having spent more than <mark>six years</mark> in the localization industry helping software clients localize (translate) their products, I am now ready to move to the client side and be able to develop internationalization architectures along with all other development aspects of the cycle.
+    Familiar with the full Microsoft 365 suit, and e-learning apps, but what I love the most is preparing and engineering <mark>software-related plaint text files</mark> in any programming language as it involves creating and developing parsers as well as fine-tuning <mark>regular expressions</mark>.
 
+    Currently working as a software developer in Madrid, Spain but would consider a relocation package.
 content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -311,20 +312,16 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
+      <img src="/images/memoq.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/sdl.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/XTM.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/total_commander.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/regex.jpeg" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/jira.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
-      <img src="/images/mysql.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/bootstrap.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/angular.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/java_ee.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/rest_api.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/linux.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/windows.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
       <br>
 
 
