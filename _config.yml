@@ -280,11 +280,11 @@ content:
       - layout: top-middle
         title: Django application - CRUD
         link: github.com/agomezmartin/
-        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
+        link_text: https://github.com/agomezmartin/internationalization
         additional_links:
           - title:  agomezmartin
             icon: fab fa-github
-            url: https://github.com/agomezmartin/internationalization
+            url: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
@@ -295,11 +295,11 @@ content:
       - layout: top-middle
         title: Django application - DB (client creation)
         link: github.com/agomezmartin/
-        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
+        link_text: https://github.com/agomezmartin/internationalization
         additional_links:
           - title:  agomezmartin
             icon: fab fa-github
-            url: https://github.com/agomezmartin/internationalization
+            url: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
