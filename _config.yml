@@ -173,6 +173,41 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
+    
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: Imperial College London
+        caption: October 2012 - September 2013</br><mark>London, United Kingdon</mark> 
+        sub_title: MSc Scientific, Medical and Technical Translation with Translation Technology
+#        quote: >
+#          Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Imperial College London (ICL) I acquired some of my field-specific technical skills regarding <mark>translation technology</mark>.
+          
+          Project Management, Computer-Assisted-Translation tools (CAT), or Machine Translation were some of the subjects that connected most strongly with the professional world.
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: Imperial College London
+        caption: April 2013 - July 2013</br><mark>London, United Kingdon</mark> 
+        sub_title: Certificate in Software Localization
+#         quote: >
+#           Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
+        description: | # this will include new lines to allow paragraphs
+          This all-encompasing <mark>Software Localization</mark> certificate provided specific technical insights into the processes involved in identifying and handling text to be extracted and localized from software products.
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: University of Westeminster
+        caption: September 2009 - May 2012</br><mark>London, United Kingdon</mark> 
+        sub_title: BA in Translation (Spanish-English)
+#        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          Carrying out a BA in Translation at University of Westminster allowed to deveop not only direct and indirect translation skills, but also intercultural awareness studies.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
@@ -216,41 +251,6 @@ content:
           - SQL
           - Angular
           - Services
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: Imperial College London
-        caption: October 2012 - September 2013</br><mark>London, United Kingdon</mark> 
-        sub_title: MSc Scientific, Medical and Technical Translation with Translation Technology
-#        quote: >
-#          Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Imperial College London (ICL) I acquired some of my field-specific technical skills regarding <mark>translation technology</mark>.
-          
-          Project Management, Computer-Assisted-Translation tools (CAT), or Machine Translation were some of the subjects that connected most strongly with the professional world.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: Imperial College London
-        caption: April 2013 - July 2013</br><mark>London, United Kingdon</mark> 
-        sub_title: Certificate in Software Localization
-#         quote: >
-#           Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
-        description: | # this will include new lines to allow paragraphs
-          This all-encompasing <mark>Software Localization</mark> certificate provided specific technical insights into the processes involved in identifying and handling text to be extracted and localized from software products.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: University of Westeminster
-        caption: September 2009 - May 2012</br><mark>London, United Kingdon</mark> 
-        sub_title: BA in Translation (Spanish-English)
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          Carrying out a BA in Translation at University of Westminster allowed to deveop not only direct and indirect translation skills, but also intercultural awareness studies.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
