@@ -51,11 +51,11 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
     Originally a Spanish national, I have lived in London for over a decade where I carried out both my studies and the onset of my professional career.
    
-    As a professional, I have developed mainly at global <mark>Language Service Providers</mark> (LSP) working as a <mark>Localization Engineer</mark>. Over the years I have being able to prepare for translation a wide range of file formats into several Computer Assisted Tools, both <mark>desktop-based</mark> (Wordfast, MemoQ, or SDL Trados) and <mark>web-based</mark> (XTM). Also, I have been involved in <mark>migrations</mark> into web-based TMSs.
+    As a professional, I have developed mainly at global <mark>Language Service Providers</mark> (LSP) working as a <mark>Localization Engineer</mark>. Over the years I have prepared for translation a wide range of file formats into several Computer Assisted Tools, both <mark>desktop-based</mark> (Wordfast, MemoQ, or SDL Trados) and <mark>web-based</mark> (XTM). Also, I have been involved in <mark>migrations</mark> into web-based TMSs.
     
-    Familiar with the full Microsoft 365 suit, and e-learning apps, but what I love the most is preparing and engineering <mark>software-related plaint text files</mark> in any programming language as it involves creating and developing parsers as well as fine-tuning <mark>regular expressions</mark>.
+    Familiar with the full Microsoft 365 suit, and e-learning apps, but what I love the most is preparing and engineering <mark>software-related plaint text files</mark> in any programming language as it involves creating and developing parsers as well as fine-tuning <mark>regular expressions</mark>. Ability to create scripts to automate internal tasks.
 
-    Currently working as a software developer in Madrid, Spain but would consider a relocation package.
+    Currently working as a software developer in Madrid, Spain and would be willing to go back to localization for the right position ideally on the client side.
 content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -74,14 +74,14 @@ content:
         title: Inforyde
         link: https://inforyde.com/
         link_text: inforyde.com
-        sub_title: Junior Software Engineer
+        sub_title: Software Engineer
         caption: January 2024 - In progress</br><mark>Madrid, Spain</mark> 
       #  quote: >
 
         description: | # this will include new lines to allow paragraphs
 
           Design, develop, and maintain software solutions to support energy tools software.
-          Contribute to the definition of prospective products and services based on both C# and VBA.
+          Contribute to the definition of prospective products and services based on both C# and VBA as a junior software engineer.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
@@ -96,7 +96,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           
           <mark>Technical project management</mark>
-            - Asessing, and analizing from the technical side clients' products.
+            - Technical requirements assesment for clients products.
             - Quotes
             - Technical vendor management
 
