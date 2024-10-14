@@ -50,11 +50,14 @@ linkedin_username: albertogomezmartin
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
     Originally a Spanish national, I have lived in London for over a decade where I carried out both my studies and the onset of my professional career.
+<<<<<<< HEAD
+   
+    As a professional, I have developed mainly at global <mark>Language Service Providers</mark> (LSP) working as a <mark>Localization Engineer</mark>. Over the years I have prepared for translation a wide range of file formats into several Computer Assisted Tools, both <mark>desktop-based</mark> (Wordfast, MemoQ, or SDL Trados) and <mark>web-based</mark> (XTM). Also, I have been involved in <mark>migrations</mark> into web-based TMSs.
     
-    As a professional, I have developed mainly at global <mark>Language Service Providers</mark> (LSP) working as a <mark>Localization Engineer</mark>. Although coming from a translation-educated background, this position has enabled me to work hand-in-hand in the same department with IT-educated professionals where we came up together with solutions to streamline and scale the localization processes of our clients' software products.
-    
-    After having spent more than <mark>six years</mark> in the localization industry helping software clients localize (translate) their products, I am currently working as a <mark>Software Engineer</mark> for an Energy sector software company using <mark>C#</mark> and <mark>VBA</mark> programming languages.
+    Familiar with the full Microsoft 365 suit, and e-learning apps, but what I love the most is preparing and engineering <mark>software-related plaint text files</mark> in any programming language as it involves creating and developing parsers as well as fine-tuning <mark>regular expressions</mark>. Ability to create scripts to automate internal tasks.
 
+    Currently working as a software developer in Madrid, Spain and would be willing to go back to localization for the right position ideally on the client side.
+>>>>>>> LE
 content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -73,20 +76,22 @@ content:
         title: Invesyde
         link: https://inforyde.com/
         link_text: inforyde.com
-        sub_title: Junior Software Engineer
+        sub_title: Software Engineer
         caption: January 2024 - In progress</br><mark>Madrid, Spain</mark> 
       #  quote: >
 
         description: | # this will include new lines to allow paragraphs
 
           Design, develop, and maintain software solutions to support energy tools software.
-          Contribute to the definition of prospective products and services based on both C# and VBA.
+<<<<<<< HEAD
           
             - Entity Framework
             - LINQ
             - ADO
             
           Version control with Git and GitHub on Windows command line. Ticket requests on Jira.
+          Contribute to the definition of prospective products and services based on both C# and VBA as a junior software engineer.
+>>>>>>> LE
 
         # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
@@ -101,7 +106,7 @@ content:
         description: | # this will include new lines to allow paragraphs
           
           <mark>Technical project management</mark>
-            - Asessing, and analizing from the technical side clients' products.
+            - Technical requirements assesment for clients products.
             - Quotes
             - Technical vendor management and documentation on Confluence
 
@@ -178,6 +183,41 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
+    
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: Imperial College London
+        caption: October 2012 - September 2013</br><mark>London, United Kingdon</mark> 
+        sub_title: MSc Scientific, Medical and Technical Translation with Translation Technology
+#        quote: >
+#          Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
+        description: | # this will include new lines to allow paragraphs
+          During my time at Imperial College London (ICL) I acquired some of my field-specific technical skills regarding <mark>translation technology</mark>.
+          
+          Project Management, Computer-Assisted-Translation tools (CAT), or Machine Translation were some of the subjects that connected most strongly with the professional world.
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: Imperial College London
+        caption: April 2013 - July 2013</br><mark>London, United Kingdon</mark> 
+        sub_title: Certificate in Software Localization
+#         quote: >
+#           Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
+        description: | # this will include new lines to allow paragraphs
+          This all-encompasing <mark>Software Localization</mark> certificate provided specific technical insights into the processes involved in identifying and handling text to be extracted and localized from software products.
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: University of Westeminster
+        caption: September 2009 - May 2012</br><mark>London, United Kingdon</mark> 
+        sub_title: BA in Translation (Spanish-English)
+#        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+          Carrying out a BA in Translation at University of Westminster allowed to deveop not only direct and indirect translation skills, but also intercultural awareness studies.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
@@ -258,6 +298,8 @@ content:
           - Services
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+<<<<<<< HEAD
+>>>>>>> LE
 #    PROJECTS
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
