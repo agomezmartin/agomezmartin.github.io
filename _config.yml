@@ -83,7 +83,6 @@ content:
         description: | # this will include new lines to allow paragraphs
 
           Design, develop, and maintain software solutions to support energy tools software.
-<<<<<<< HEAD
           
             - Entity Framework
             - LINQ
@@ -91,7 +90,6 @@ content:
             
           Version control with Git and GitHub on Windows command line. Ticket requests on Jira.
           Contribute to the definition of prospective products and services based on both C# and VBA as a junior software engineer.
->>>>>>> LE
 
         # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
@@ -298,8 +296,6 @@ content:
           - Services
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-<<<<<<< HEAD
->>>>>>> LE
 #    PROJECTS
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
