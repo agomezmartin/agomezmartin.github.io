@@ -315,7 +315,7 @@ content:
       <img src="/images/memoq.png" width="20%" height="20%" style="margin-bottom:5%">
       <img src="/images/sdl.png" width="20%" height="20%" style="margin-bottom:5%">
       <img src="/images/XTM.png" width="20%" height="20%" style="margin-bottom:5%">
-      <img src="/images/i18n.png" width="10%" height="10%" style="margin-bottom:5%">
+      <img src="/images/i18n.png" width="10%" height="10%" style="margin-bottom:5% border: 2px solid red">
       <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/total_commander.png" width="10%" height="10%" style="margin-bottom:5%">
       <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
