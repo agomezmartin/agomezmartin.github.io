@@ -7,13 +7,13 @@ version: 2
 
 # Personal info
 name: Alberto Gómez-Martín
-title: Localization and Software Engineer
+title: Localization Engineer and Jr. Software Engineer
 email: agomezmartinpro@gmail.com
 teléfono: +34 665042685
-website: https://agomezmartin.github.io/
+# website: https://agomezmartin.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 # twitter_username: facespics
@@ -49,15 +49,13 @@ linkedin_username: albertogomezmartin
 # about_title: About Me
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-
     Originally a Spanish national, I have lived in London for over a decade where I carried out both my studies and the onset of my professional career.
-
+   
     As a professional, I have developed mainly at global <mark>Language Service Providers</mark> (LSP) working as a <mark>Localization Engineer</mark>. Over the years I have prepared for translation a wide range of file formats into several Computer Assisted Tools, both <mark>desktop-based</mark> (Wordfast, MemoQ, or SDL Trados) and <mark>web-based</mark> (XTM). Also, I have been involved in <mark>migrations</mark> into web-based TMSs.
     
     Familiar with the full Microsoft 365 suit, and e-learning apps, but what I love the most is preparing and engineering <mark>software-related plaint text files</mark> in any programming language as it involves creating and developing parsers as well as fine-tuning <mark>regular expressions</mark>. Ability to create scripts to automate internal tasks.
 
     Currently working as a software developer in Madrid, Spain and would be willing to go back to localization for the right position ideally on the client side.
-
 content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -73,7 +71,7 @@ content:
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
       - layout: left
-        title: Invesyde
+        title: Inforyde
         link: https://inforyde.com/
         link_text: inforyde.com
         sub_title: Software Engineer
@@ -83,15 +81,9 @@ content:
         description: | # this will include new lines to allow paragraphs
 
           Design, develop, and maintain software solutions to support energy tools software.
-          
-            - Entity Framework
-            - LINQ
-            - ADO
-            
-          Version control with Git and GitHub on Windows command line. Ticket requests on Jira.
           Contribute to the definition of prospective products and services based on both C# and VBA as a junior software engineer.
 
-        # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
       - layout: left
         title: ACOLAD
@@ -106,7 +98,7 @@ content:
           <mark>Technical project management</mark>
             - Technical requirements assesment for clients products.
             - Quotes
-            - Technical vendor management and documentation on Confluence
+            - Technical vendor management
 
           <mark>Localization Engineering</mark>
             - File preparation for CAT processing
@@ -139,7 +131,7 @@ content:
         link: https://www.gamesysgroup.com/
         link_text: gamesysgroup.com
         sub_title: Translator and localizer
-        caption: April 2013 - October 2014</br><mark>London, United Kingdon</mark> 
+        caption: October 2014 - May 2015</br><mark>London, United Kingdon</mark> 
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
@@ -220,41 +212,6 @@ content:
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
       - layout: left
-        title: Imperial College London
-        caption: October 2012 - September 2013</br><mark>London, United Kingdon</mark> 
-        sub_title: MSc Scientific, Medical and Technical Translation with Translation Technology
-#        quote: >
-#          Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Imperial College London (ICL) I acquired some of my field-specific technical skills regarding <mark>translation technology</mark>.
-          
-          Project Management, Computer-Assisted-Translation tools (CAT), or Machine Translation were some of the subjects that connected most strongly with the professional world.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: Imperial College London
-        caption: April 2013 - July 2013</br><mark>London, United Kingdon</mark> 
-        sub_title: Certificate in Software Localization
-#         quote: >
-#           Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
-        description: | # this will include new lines to allow paragraphs
-          This all-encompasing <mark>Software Localization</mark> certificate provided specific technical insights into the processes involved in identifying and handling text to be extracted and localized from software products.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: University of Westeminster
-        caption: September 2009 - May 2012</br><mark>London, United Kingdon</mark> 
-        sub_title: BA in Translation (Spanish-English)
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          Carrying out a BA in Translation at University of Westminster allowed to deveop not only direct and indirect translation skills, but also intercultural awareness studies.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
         title: CRN
         caption: September 2023 - November 2023</br><mark>Madrid, Spain</mark> 
         sub_title: Java Proffesional Standard Edition (ORACLE Certificate)
@@ -296,6 +253,7 @@ content:
           - Services
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
 #    PROJECTS
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -327,7 +285,7 @@ content:
         additional_links:
           - title:  agomezmartin
             icon: fab fa-github
-            url: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
+            url: https://github.com/agomezmartin/internationalization
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
@@ -342,7 +300,7 @@ content:
         additional_links:
           - title:  agomezmartin
             icon: fab fa-github
-            url: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
+            url: https://github.com/agomezmartin/internationalization
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
@@ -354,21 +312,16 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      <img src="/images/c_sharp.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/jira.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/github.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/memoq.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/sdl.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/XTM.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/total_commander.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/regex.jpeg" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/jira.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
-      <img src="/images/mysql.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/bootstrap.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/angular.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/rest_api.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/linux.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/windows.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
       <br>
 
 
