@@ -320,8 +320,8 @@ content:
       <img src="/images/total_commander.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/regex.jpeg" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/jira.png" width="10%" height="10%" style="margin-left:5%;margin-right:5%;margin-bottom:5%">
-      <img src="/images/django.png" width="10%" height="10%" style="margin-left:5%;margin-right:5%;margin-bottom:5%">
+      <img src="/images/jira.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
       <br>
 
 
