@@ -283,36 +283,6 @@ content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-      - layout: top-middle
-        title: Django application - CRUD
-        link: github.com/agomezmartin/
-        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
-        additional_links:
-          - title:  agomezmartin
-            icon: fab fa-github
-            url: https://github.com/agomezmartin/internationalization
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way of learning <mark>Django</mark> and executing <mark>CRUD operations</mark> using the framework. I have learned many skills through this and I'm very proud of having this in my portfolio.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: top-middle
-        title: Django application - DB (client creation)
-        link: github.com/agomezmartin/
-        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
-        additional_links:
-          - title:  agomezmartin
-            icon: fab fa-github
-            url: https://github.com/agomezmartin/internationalization
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way of learning <mark>Django</mark>, handling forms and <mark>databases</mark>. I have learned many skills through this and I'm very proud of having this in my portfolio.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
   - title: Software & Technology
     layout: text
     content: | # this will include new lines to allow paragraphs
