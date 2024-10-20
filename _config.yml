@@ -95,18 +95,16 @@ content:
 
         description: | # this will include new lines to allow paragraphs
           
-          <mark>Technical project management</mark>
-            - Technical requirements assesment for clients products.
-            - Quotes
-            - Technical vendor management
+          As a Localization Engineer at Acolad, I was responsible for the technical aspects of localization and translation projects, ensuring seamless adaptation of content for global markets. Key responsibilities included:
 
-          <mark>Localization Engineering</mark>
-            - File preparation for CAT processing
-            - Parser creation using regexes
-            - Segmentation
-            - Migrations
-            - Translation Memory management
-            - Scripting
+          </mark>Software Localization:</mark> Managed the localization of software interfaces, ensuring proper internationalization and adaptation of UI/UX elements across multiple languages. Collaborated with developers to ensure seamless functionality post-localization.
+          </mark>e-Learning Localization:</mark> Assisted in the localization of e-learning courses, including the extraction of subtitles to Excel files and their conversion into SRT format after translation for seamless integration into training videos.
+          <mark>XML and DITA:</mark> Worked with XML and DITA formats to structure and manage documentation, ensuring content could be efficiently localized across different languages and regions.
+          </mark>Management:</mark> Utilized Computer-Assisted Translation (CAT) tools to streamline translation workflows. Developed and optimized translation memories, termbases, and localization resources for improved translation consistency.
+          </mark>Parsing and Regex:</mark> Employed parsing techniques and regular expressions (regex) to extract translatable content from various file formats, automate string extraction, and apply quality checks.
+          <mark>Localization Testing and QA:</mark> Performed functional and linguistic testing of localized content in software and e-learning environments to ensure proper functionality, cultural relevance, and high-quality user experience across different locales.
+
+          Through this role, I strengthened my technical expertise in software localization, XML-based documentation, and e-learning content adaptation while contributing to the successful deployment of globalized products.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
