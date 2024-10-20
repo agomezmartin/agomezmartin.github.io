@@ -79,6 +79,7 @@ content:
       #  quote: >
 
         description: | # this will include new lines to allow paragraphs
+        
         Inforyde provides advanced software solutions to the energy sector, including optimization and automation tools to support energy management and efficiency.
 
         - Developed custom Excel-based tools leveraging VBA (Visual Basic for Applications) to automate complex data processing tasks, reducing manual input and improving data accuracy across the energy portfolio management processes.
