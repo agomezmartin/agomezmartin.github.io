@@ -82,10 +82,10 @@ content:
 
           Inforyde provides advanced software solutions to the energy sector, including optimization and automation tools to support energy management and efficiency.
 
-          - Developed custom Excel-based tools leveraging VBA (Visual Basic for Applications) to automate complex data processing tasks, reducing manual input and improving data accuracy across the energy portfolio management processes.
-          - Integrated C# plugins within Excel to extend its functionality, enabling dynamic data analysis, real-time updates, and custom-built models tailored to client-specific energy forecasting and reporting requirements.
-          - Optimized existing Excel sheets used by teams for energy cost simulations, utilizing advanced VBA scripting to improve processing time and streamline calculations.
-          - Provided ongoing maintenance and updates to tools, ensuring seamless integration of new features and upgrades in response to evolving client and industry needs.
+          - Developing custom Excel-based tools leveraging VBA (Visual Basic for Applications) to automate complex data processing tasks, reducing manual input and improving data accuracy across the energy portfolio management processes.
+          - Integrating C# plugins within Excel to extend its functionality, enabling dynamic data analysis, real-time updates, and custom-built models tailored to client-specific energy forecasting and reporting requirements.
+          - Optimizing existing Excel sheets used by teams for energy cost simulations, utilizing advanced VBA scripting to improve processing time and streamline calculations.
+          - Provide ongoing maintenance and updates to tools, ensuring seamless integration of new features and upgrades in response to evolving client and industry needs.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
