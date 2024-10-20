@@ -158,19 +158,6 @@ content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-      - layout: left
-        title: Lady Margaret School
-        link: https://ladymargaret.lbhf.sch.uk/
-        link_text: ladymargaret.lbhf.sch.uk<br/>
-        sub_title: Spanish Language Assistant
-        caption: October 2014 - May 2015</br><mark>London, United Kingdon</mark> 
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-            Help students prepare their A Levels speaking exams.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
 #    EDUCATION
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
