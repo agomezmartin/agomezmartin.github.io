@@ -132,6 +132,17 @@ content:
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
       - layout: left
+        title: 
+        link: 
+        link_text: 
+        sub_title: 
+        caption:  
+#        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+      - layout: left
         title: GAMESYS LIMITED
         link: https://www.gamesysgroup.com/
         link_text: gamesysgroup.com
