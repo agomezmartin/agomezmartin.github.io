@@ -123,8 +123,22 @@ content:
 
         description: | # this will include new lines to allow paragraphs
 
-          Como parte del equipo de ingeniería de localización, éramos responsables de recibir los productos de los clientes, evaluar su idoneidad para el procesamiento de localización y elaborar presupuestos.
-          <mark>Segmentación</mark> y <mark>desarrollo de parsers</mark> fueron tareas fundamentales de nuestro trabajo diario.
+          As part of the localization Engineering team, we were responsible for receiving clients' products, assessing their suitability for localization processing and putting together quotes.
+          <mark>Segmentation</mark> and <mark>parse development</mark> were core parts of our everyday load.
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+      - layout: left
+        title: 
+        link:
+        link_text: 
+        sub_title: 
+        caption: 
+#        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+            
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
       - layout: left
         title: GAMESYS LIMITED
@@ -294,14 +308,10 @@ content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-  - title: Un Poco Más Sobre Mí
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Además de mis intereses en internacionalización e ingeniería de software, algunos de mis otros intereses y pasatiempos son:
+  #- title: 
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
 
-      - Inversión y gestión de capital
-      - Meditación
-      - Música
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
