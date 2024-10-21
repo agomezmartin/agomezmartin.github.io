@@ -321,6 +321,14 @@ content:
       <img src="/images/django.png" width="15%" height="20%" style="margin-left:5%;margin-bottom:5%">
       <br>
 
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+  #- title: 
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
+
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 # Footer
