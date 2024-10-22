@@ -82,9 +82,9 @@ content:
 
           Inforyde provides advanced software solutions to the energy sector, including optimization and automation tools to support energy management and efficiency.
 
-          - Developing custom Excel-based tools leveraging VBA (Visual Basic for Applications) to automate complex data processing tasks, reducing manual input and improving data accuracy across the energy portfolio management processes.
-          - Integrating C# plugins within Excel to extend its functionality, enabling dynamic data analysis, real-time updates, and custom-built models tailored to client-specific energy forecasting and reporting requirements.
-          - Optimizing existing Excel sheets used by teams for energy cost simulations, utilizing advanced VBA scripting to improve processing time and streamline calculations.
+          - Developing custom <mark>Excel-based tools</mark> leveraging VBA (Visual Basic for Applications) to automate complex data processing tasks, reducing manual input and improving data accuracy across the energy portfolio management processes.
+          - Integrating <mark>C# plugins</mark> within Excel to extend its functionality, enabling dynamic data analysis, real-time updates, and custom-built models tailored to client-specific energy forecasting and reporting requirements.
+          - Optimizing existing Excel sheets used by teams for energy cost simulations, utilizing advanced <mark>VBA scripting</mark> to improve processing time and streamline calculations.
           - Provide ongoing maintenance and updates to tools, ensuring seamless integration of new features and upgrades in response to evolving client and industry needs.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -101,15 +101,15 @@ content:
           
           As a Localization Engineer at Acolad, I was responsible for the technical aspects of localization and translation projects, ensuring seamless adaptation of content for global markets. Key responsibilities included:
 
-          - Software Localization: Managed the localization of software interfaces, ensuring proper internationalization and adaptation of UI/UX elements across multiple languages. Collaborated with developers to ensure seamless functionality post-localization.
+          - <mark>Software Localization:</mark> Managed the localization of software interfaces, ensuring proper internationalization and adaptation of UI/UX elements across multiple languages. Collaborated with developers to ensure seamless functionality post-localization.
 
-          - e-Learning Localization: Assisted in the localization of e-learning courses, including the extraction of subtitles to Excel files and their conversion into SRT format after translation for seamless integration into training videos.
+          - <mark>e-Learning Localization:</mark> Assisted in the localization of e-learning courses, including the extraction of subtitles to Excel files and their conversion into SRT format after translation for seamless integration into training videos.
 
-          - XML and DITA: Worked with XML and DITA formats to structure and manage documentation, ensuring content could be efficiently localized across different languages and regions.
+          - <mark>XML and DITA:</mark> Worked with XML and DITA formats to structure and manage documentation, ensuring content could be efficiently localized across different languages and regions.
 
-          - Parsing and Regex: Employed parsing techniques and regular expressions (regex) to extract translatable content from various file formats, automate string extraction, and apply quality checks.
+          - <mark>Parsing and Regexes:</mark> Employed parsing techniques and regular expressions (regex) to extract translatable content from various file formats, automate string extraction, and apply quality checks.
 
-          - Localization Testing and QA: Performed functional and linguistic testing of localized content in software and e-learning environments to ensure proper functionality, cultural relevance, and high-quality user experience across different locales.
+          - <mark>Localization Testing and QA:</mark> Performed functional and linguistic testing of localized content in software and e-learning environments to ensure proper functionality, cultural relevance, and high-quality user experience across different locales.
 
           Through this role, I strengthened my technical expertise in software localization, XML-based documentation, and e-learning content adaptation while contributing to the successful deployment of globalized products.
 
