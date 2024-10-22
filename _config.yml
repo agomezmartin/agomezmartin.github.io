@@ -13,7 +13,7 @@ teléfono: +34 665042685
 website: https://agomezmartin.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: never
+darkmode: false
 
 # Social links
 # twitter_username: facespics
@@ -301,10 +301,17 @@ content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-  #- title: 
-  #  layout: text
-  #  content: | # this will include new lines to allow paragraphs
+  - title: Soft skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
 
+      - Analytic mind
+      - Agile project management, and adaptiveness to change
+      - Assertive communication
+      - Motivation for learning
+      - Mentoring and coaching
+      - Customer-first approach
+      - Accountable
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
