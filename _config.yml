@@ -13,7 +13,7 @@ teléfono: +34 665042685
 website: https://agomezmartin.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 # twitter_username: facespics
@@ -256,6 +256,25 @@ content:
           - Angular
           - Services
 
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+#    SOFT SKILLS
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+  - title: Soft skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+
+      - Analytic mind
+      - Agile project management, and adaptiveness to change
+      - Assertive communication
+      - Motivation for learning
+      - Mentoring and coaching
+      - Customer-first approach
+      - Accountable
+
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 #    PROJECTS
@@ -282,6 +301,10 @@ content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
+#    SOFTWARE TECHNOLOGY
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
   - title: Software & Technology
     layout: text
     content: | # this will include new lines to allow paragraphs
@@ -297,21 +320,6 @@ content:
       <img src="/images/jira.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/django.png" width="15%" height="20%" style="margin-left:5%;margin-bottom:5%">
       <br>
-
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-  - title: Soft skills
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-
-      - Analytic mind
-      - Agile project management, and adaptiveness to change
-      - Assertive communication
-      - Motivation for learning
-      - Mentoring and coaching
-      - Customer-first approach
-      - Accountable
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
