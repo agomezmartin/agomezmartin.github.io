@@ -321,21 +321,6 @@ content:
       <img src="/images/django.png" width="15%" height="20%" style="margin-left:5%;margin-bottom:5%">
       <br>
 
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-  - title: Soft skills
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-
-      - Analytic mind
-      - Agile project management, and adaptiveness to change
-      - Assertive communication
-      - Motivation for learning
-      - Mentoring and coaching
-      - Customer-first approach
-      - Accountable
-
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 # Footer
