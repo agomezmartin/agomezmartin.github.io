@@ -301,10 +301,17 @@ content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-  #- title: 
-  #  layout: text
-  #  content: | # this will include new lines to allow paragraphs
+  - title: Soft skills
+    layout: text
+    content: | # this will include new lines to allow paragraphs
 
+      - Analytic mind
+      - Agile project management, and adaptiveness to change
+      - Assertive communication
+      - Motivation for learning
+      - Mentoring and coaching
+      - Customer-first approach
+      - Accountable
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
