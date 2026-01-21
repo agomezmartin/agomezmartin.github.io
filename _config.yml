@@ -50,7 +50,7 @@ about_title: Sobre mi
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
 
-    Español de nacimiento, viví en Londres más de una década, donde inicié mi carrera profesional.
+    Español de nacimiento, he vivido en Londres más de una década, donde inicié mi carrera profesional.
     Soy Ingeniero de Localización y Software con experiencia educativa, habiendo trabajado en 2014 para <mark>Grupo MT</mark> y en instituciones británicas como profesor.
     Durante mi carrera, he gestionado proyectos traducción de cursos <mark>e-learning</mark> con herramientas como <mark>Articulate</mark> responsables de crear experiencias de aprendizaje innovadoras.
     Mi enfoque está en la gestión de equipos y proyectos, y busco regresar al sector educativo para contribuir al aprendizaje dinámico y personalizado, como lo hice en mi experiencia con <mark>Grupo MT</mark>.
@@ -273,13 +273,13 @@ content:
       <img src="/images/i18n.png" width="10%" height="10%" style="margin-bottom:5%">
       <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/regex.jpeg" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
       <img src="/images/bootstrap.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/angular.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/linux.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/windows.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <br>
+#      <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
 #      <img src="/images/memoq.png" width="20%" height="20%" style="margin-bottom:5%">
 #      <img src="/images/sdl.png" width="20%" height="20%" style="margin-bottom:5%">
 #      <img src="/images/XTM.png" width="20%" height="10%" style="margin-bottom:5%">
