@@ -157,7 +157,7 @@ content:
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
-            Durante mi tiempo en Grupo MT, tuve la oportunidad de continuar desarrollando mis habilidades lingüísticas y pedagógicas al impartir clases particulares de inglés a estudiantes de los primeros cursos de primaria.
+            Durante mi tiempo en Grupo MT, tuve la oportunidad de continuar desarrollando mis <mark>habilidades lingüísticas y pedagógicas</mark> al impartir clases particulares de inglés a estudiantes de los primeros cursos de primaria.
 
       - layout: left
         title: GAMESYS LIMITED
@@ -227,13 +227,6 @@ content:
           El realizar un Grado en Traducción en la Universidad de Westminster me permitió desarrollar no solo habilidades de traducción directa e indirecta, sino también estudios sobre conciencia intercultural.
 
       - layout: left
-        title: CRN
-        caption: Septiembre 2023 - Noviembre 2023</br><mark>Madrid, España</mark> 
-        sub_title: Java Proffesional Standard Edition (Certificado ORACLE)
-        description: | # this will include new lines to allow paragraphs
-          Java Standard Edition: el curso cubre el API de J2SE e incluye una preparación de 10 horas para el programa <mark>Oracle Certified Professional, Java SE</mark>. 
-
-      - layout: left
         title: Centro de Formación en Tecnologías de la Información y las Comunicaciones de Madrid
         caption: Mayo 2023 - Julio 2023</br><mark>Madrid, España</mark> 
         sub_title: Desarrollo y visualización de datos con Python (Django y Pandas)
@@ -279,50 +272,29 @@ content:
           Me apasiona explorar los diferentes enfoques para <mark>internacionalizar</mark> el contenido de software, por lo que decidí realizar un seguimiento de las estrategias con las que me encuentro, para tenerlas a mano en tareas cotidianas.
           Al tener el repositorio público, estaría orgulloso de que fuera útil para otros profesionales.
 
-      - layout: top-middle
-        title: Aplicación Django - CRUD
-        link: github.com/agomezmartin/
-        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
-        additional_links:
-          - title:  agomezmartin
-            icon: fab fa-github
-            url: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
-        description: | # this will include new lines to allow paragraphs
-          Comencé este proyecto como una forma de aprender <mark>Django</mark> y realizar operaciones <mark>CRUD</mark> usando el marco. He aprendido muchas habilidades con esto y me siento muy orgulloso de tenerlo en mi portafolio.
-
-      - layout: top-middle
-        title: Aplicación Django - DB (creación de cliente)
-        link: github.com/agomezmartin/
-        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
-        additional_links:
-          - title:  agomezmartin
-            icon: fab fa-github
-            url: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
-        description: | # this will include new lines to allow paragraphs
-          Comencé este proyecto como una forma de aprender <mark>Django</mark>, manejar formularios y <mark>bases de datos</mark>. He aprendido muchas habilidades con esto y me siento muy orgulloso de tenerlo en mi portafolio.
 
   - title: Software y Tecnología
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      <img src="/images/memoq.png" width="20%" height="20%" style="margin-bottom:5%">
-      <img src="/images/sdl.png" width="20%" height="20%" style="margin-bottom:5%">
-      <img src="/images/XTM.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/articulate.png" width="10%" height="10%" style="margin-left:5%;margin-right:5%;margin-bottom:5%">
       <img src="/images/i18n.png" width="10%" height="10%" style="margin-bottom:5%">
-      <img src="/images/total_commander.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/regex.jpeg" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
-      <img src="/images/mysql.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/bootstrap.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/angular.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/rest_api.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/linux.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/windows.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
-      <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
       <br>
+#      <img src="/images/memoq.png" width="20%" height="20%" style="margin-bottom:5%">
+#      <img src="/images/sdl.png" width="20%" height="20%" style="margin-bottom:5%">
+#      <img src="/images/XTM.png" width="20%" height="10%" style="margin-bottom:5%">
+#      <img src="/images/total_commander.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+#      <img src="/images/mysql.png" width="20%" height="10%" style="margin-bottom:5%">
+#      <img src="/images/rest_api.png" width="20%" height="10%" style="margin-bottom:5%">
+#      <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
 
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
