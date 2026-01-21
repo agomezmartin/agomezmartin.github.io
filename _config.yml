@@ -46,7 +46,7 @@ linkedin_username: albertogomezmartin
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: Sobre mi
+about_title: Sobre mi
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
     Originalmente español, he vivido en Londres durante más de una década, donde realicé tanto mis estudios como el inicio de mi carrera profesional.
