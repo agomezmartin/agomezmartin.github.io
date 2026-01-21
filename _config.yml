@@ -55,7 +55,7 @@ about_content: | # this will include new lines to allow paragraphs
     
     Después de pasar más de <mark>seis años</mark> en la industria de localización ayudando a clientes de software a localizar (traducir) sus productos, actualmente trabajo como <mark>Ingeniero de Software</mark> en una empresa del sector energético utilizando lenguajes de programación <mark>C#</mark> y <mark>VBA</mark>.
 
-    Currently, I am working as a <mark>software developer</mark> in Madrid, Spain. However, I am eager to return to the localization industry, ideally in a client-side role within a dynamic and innovative environment. I am especially drawn to opportunities in the pharmaceutical sector, where I can apply my technical expertise to support critical global communications in a fast-paced, regulated industry.
+    Actualmente, trabajo como <mark>desarrollador de software</mark> en Madrid, España. Sin embargo, estoy deseando volver a la industria de la localización, idealmente en un rol del lado del cliente dentro de un entorno dinámico e innovador. Me atraen especialmente las oportunidades en el sector farmacéutico, donde puedo aplicar mi experiencia técnica para apoyar las comunicaciones globales críticas en una industria regulada y de ritmo rápido.
 content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -123,21 +123,9 @@ content:
 
         description: | # this will include new lines to allow paragraphs
 
-          As part of the localization Engineering team, we were responsible for receiving clients' products, assessing their suitability for localization processing and putting together quotes.
-          <mark>Segmentation</mark> and <mark>parse development</mark> were core parts of our everyday load.
+          Como parte del equipo de ingeniería de localización, éramos responsables de recibir los productos de los clientes, evaluar su idoneidad para el procesamiento de localización y elaborar presupuestos.
+          <mark>Segmentación</mark> y <mark>desarrollo de parsers</mark> fueron tareas fundamentales de nuestro trabajo diario.
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: 
-        link:
-        link_text: 
-        sub_title: 
-        caption: 
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-            
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
       - layout: left
@@ -312,13 +300,13 @@ content:
     layout: text
     content: | # this will include new lines to allow paragraphs
 
-      - Analytic mind
-      - Agile project management, and adaptiveness to change
-      - Assertive communication
-      - Motivation for learning
-      - Mentoring and coaching
-      - Customer-first approach
-      - Accountable
+      - Mente analítica
+      - Gestión de proyectos ágiles y adaptación al cambio
+      - Comunicación asertiva
+      - Motivación para el aprendizaje
+      - Mentorización y coaching
+      - Enfoque centrado en el cliente
+      - Responsabilidad
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
