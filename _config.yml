@@ -161,7 +161,6 @@ content:
 
         description: | # this will include new lines to allow paragraphs
             Durante mi tiempo en Gamesys, participé en la <mark>traducción y localización</mark> de su proyecto de videojuego en línea <mark>HotShot Trader</mark>. El videojuego en línea estaba basado en JavaScript e internacionalizado mediante la extracción de cadenas a archivos en formato JSON.
-            Esta fue una oportunidad increíble para tener mi primer contacto profesional con proyectos reales de software mientras salía de la universidad.
 
       - layout: left
         title: The London Oratory School
@@ -200,8 +199,6 @@ content:
         caption: Octubre 2012 - Septiembre 2013</br><mark>Londres, Reino Unido</mark> 
         sub_title: MSc Traducción Científica, Médica y Técnica con Tecnología de la Traducción
         description: | # this will include new lines to allow paragraphs
-          Durante mi tiempo en Imperial College London (ICL) adquirí habilidades técnicas específicas de mi campo relacionadas con <mark>tecnología de la traducción</mark>.
-          
           Gestión de proyectos, herramientas de traducción asistida por ordenador (CAT) o Traducción Automática fueron algunos de los temas que se conectaron más estrechamente con el mundo profesional.
 
       - layout: left
@@ -216,7 +213,7 @@ content:
         caption: Septiembre 2009 - Mayo 2012</br><mark>Londres, Reino Unido</mark> 
         sub_title: Grado en Traducción (Español-Inglés)
         description: | # this will include new lines to allow paragraphs
-          El realizar un Grado en Traducción en la Universidad de Westminster me permitió desarrollar no solo habilidades de traducción directa e indirecta, sino también estudios sobre conciencia intercultural.
+          El Grado en Traducción en la Universidad de Westminster me permitió desarrollar no solo habilidades de traducción directa e indirecta, sino también estudios sobre conciencia intercultural.
 
       - layout: left
         title: Centro de Formación en Tecnologías de la Información y las Comunicaciones de Madrid
@@ -229,41 +226,6 @@ content:
           - Python
           - SQL
           - Pandas
-
-      - layout: left
-        title: Core Networks School
-        caption: Septiembre 2022 - Noviembre 2022</br><mark>Madrid, España</mark> 
-        sub_title: JAVA Enterprise Edition
-        description: | # this will include new lines to allow paragraphs
-          Uso de JAVA Enterprise Edition para desarrollar aplicaciones basadas en la web.
-
-          - Java
-          - SQL
-          - Angular
-          - Servicios
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-#    PROYECTOS
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-  - title: Proyectos # Título de la sección
-    layout: list # Tipo de contenido (lista/texto)
-    content:
-
-      - layout: top-middle
-        title: Repositorio de Internacionalización en GitHub
-        link: github.com/agomezmartin/internationalization
-        link_text: https://github.com/agomezmartin/internationalization
-        additional_links:
-          - title:  agomezmartin/internationalization
-            icon: fab fa-github
-            url: https://github.com/agomezmartin/internationalization
-        description: | # this will include new lines to allow paragraphs
-          Me apasiona explorar los diferentes enfoques para <mark>internacionalizar</mark> el contenido de software, por lo que decidí realizar un seguimiento de las estrategias con las que me encuentro, para tenerlas a mano en tareas cotidianas.
-          Al tener el repositorio público, estaría orgulloso de que fuera útil para otros profesionales.
-
 
   - title: Software y Tecnología
     layout: text
