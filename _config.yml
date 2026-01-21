@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
 
     Español de nacimiento, viví en Londres más de una década, donde inicié mi carrera profesional.
     Soy Ingeniero de Localización y Software con experiencia educativa, habiendo trabajado en 2014 para <mark>Grupo MT</mark> y en instituciones británicas como profesor.
-    Durante mi carrera, he gestionado proyectos traducción de cursos e-learning con herramientas como <mark>Articulate</mark> responsables de crear experiencias de aprendizaje innovadoras.
+    Durante mi carrera, he gestionado proyectos traducción de cursos <mark>e-learning</mark> con herramientas como <mark>Articulate</mark> responsables de crear experiencias de aprendizaje innovadoras.
     Mi enfoque está en la gestión de equipos y proyectos, y busco regresar al sector educativo para contribuir al aprendizaje dinámico y personalizado, como lo hice en mi experiencia con <mark>Grupo MT</mark>.
 
 content:
@@ -80,13 +80,6 @@ content:
         description: | # this will include new lines to allow paragraphs
 
           Desarrollo y mantenimiento de la plataforma web de Replant, una startup dedicada a la venta de plantas de interior. 
-          Utilizo tecnologías como Angular, TypeScript y bases de datos SQL desde Wordpress para crear una experiencia de usuario intuitiva y eficiente.
-          
-            - Angular
-            - TypeScript
-            - HTML/CSS
-            - SQL
-            
           Implementación de funcionalidades interactivas y optimización del rendimiento del sitio web para mejorar la experiencia del usuario.
 
       - layout: left
