@@ -50,10 +50,11 @@ about_title: Sobre mi
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
 
-    Español de nacimiento, he vivido en Londres más de una década, donde inicié mi carrera profesional.
-    Soy Ingeniero de Localización y Software con experiencia educativa, habiendo trabajado en 2014 para <mark>Grupo MT</mark> y en instituciones británicas como profesor.
-    Durante mi carrera, he gestionado proyectos traducción de cursos <mark>e-learning</mark> con herramientas como <mark>Articulate</mark> responsables de crear experiencias de aprendizaje innovadoras.
-    Mi enfoque está en la gestión de equipos y proyectos, y busco regresar al sector educativo para contribuir al aprendizaje dinámico y personalizado, como lo hice en mi experiencia con <mark>Grupo MT</mark>.
+    Español de nacimiento, he vivido en Londres durante más de una década, ciudad en la que realicé mis estudios superiores y el principio de mi vida profesional. Soy Ingeniero de Localización y Software con formación previa en el sector educativo, tras trabajar en 2014 para <mark>Grupo MT</mark> y otras instituciones británicas como profesor de lengua inglesa y español respectivamente. Gracias a estas experiencias vi la importancia de la gestión de proyectos educativos y de una enseñanza innovadora y personalizada.
+
+    A lo largo de mi carrera profesional, he desarrollado habilidades técnicas y de <mark>gestión de proyectos</mark> trabajando en diversos entornos, desde el sector de la localización hasta el desarrollo de software. Sin embargo, mi pasión por la educación y el crecimiento personal de los estudiantes me ha llevado a buscar una oportunidad para regresar al ámbito educativo. Estoy motivado por la posibilidad de gestionar proyectos que contribuyan al aprendizaje de una forma divertida y dinámica, tal como lo hacía cuando colaboré con <mark>Grupo MT</mark> en 2014.
+
+    Mi enfoque profesional está centrado en la <mark>gestión de equipos y proyectos</mark>, y poseo una visión integral del trabajo colaborativo en entornos de aprendizaje. Estoy particularmente interesado en esta oportunidad dentro de un equipo innovador y comprometido con el desarrollo de actividades educativas que potencien el aprendizaje de los alumnos.
 
 content:
 
@@ -80,6 +81,13 @@ content:
         description: | # this will include new lines to allow paragraphs
 
           Desarrollo y mantenimiento de la plataforma web de Replant, una startup dedicada a la venta de plantas de interior. 
+          Utilizo tecnologías como Angular, TypeScript y bases de datos SQL desde Wordpress para crear una experiencia de usuario intuitiva y eficiente.
+          
+            - Angular
+            - TypeScript
+            - HTML/CSS
+            - SQL
+            
           Implementación de funcionalidades interactivas y optimización del rendimiento del sitio web para mejorar la experiencia del usuario.
 
       - layout: left
@@ -149,7 +157,7 @@ content:
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
-            Durante mi tiempo en Grupo MT, tuve la oportunidad de continuar desarrollando mis <mark>habilidades lingüísticas y pedagógicas</mark> al impartir clases particulares de inglés a estudiantes de los primeros cursos de primaria.
+            Durante mi tiempo en Grupo MT, tuve la oportunidad de continuar desarrollando mis habilidades lingüísticas y pedagógicas al impartir clases particulares de inglés a estudiantes de los primeros cursos de primaria.
 
       - layout: left
         title: GAMESYS LIMITED
@@ -161,6 +169,7 @@ content:
 
         description: | # this will include new lines to allow paragraphs
             Durante mi tiempo en Gamesys, participé en la <mark>traducción y localización</mark> de su proyecto de videojuego en línea <mark>HotShot Trader</mark>. El videojuego en línea estaba basado en JavaScript e internacionalizado mediante la extracción de cadenas a archivos en formato JSON.
+            Esta fue una oportunidad increíble para tener mi primer contacto profesional con proyectos reales de software mientras salía de la universidad.
 
       - layout: left
         title: The London Oratory School
@@ -199,6 +208,8 @@ content:
         caption: Octubre 2012 - Septiembre 2013</br><mark>Londres, Reino Unido</mark> 
         sub_title: MSc Traducción Científica, Médica y Técnica con Tecnología de la Traducción
         description: | # this will include new lines to allow paragraphs
+          Durante mi tiempo en Imperial College London (ICL) adquirí habilidades técnicas específicas de mi campo relacionadas con <mark>tecnología de la traducción</mark>.
+          
           Gestión de proyectos, herramientas de traducción asistida por ordenador (CAT) o Traducción Automática fueron algunos de los temas que se conectaron más estrechamente con el mundo profesional.
 
       - layout: left
@@ -213,7 +224,14 @@ content:
         caption: Septiembre 2009 - Mayo 2012</br><mark>Londres, Reino Unido</mark> 
         sub_title: Grado en Traducción (Español-Inglés)
         description: | # this will include new lines to allow paragraphs
-          El Grado en Traducción en la Universidad de Westminster me permitió desarrollar no solo habilidades de traducción directa e indirecta, sino también estudios sobre conciencia intercultural.
+          El realizar un Grado en Traducción en la Universidad de Westminster me permitió desarrollar no solo habilidades de traducción directa e indirecta, sino también estudios sobre conciencia intercultural.
+
+      - layout: left
+        title: CRN
+        caption: Septiembre 2023 - Noviembre 2023</br><mark>Madrid, España</mark> 
+        sub_title: Java Proffesional Standard Edition (Certificado ORACLE)
+        description: | # this will include new lines to allow paragraphs
+          Java Standard Edition: el curso cubre el API de J2SE e incluye una preparación de 10 horas para el programa <mark>Oracle Certified Professional, Java SE</mark>. 
 
       - layout: left
         title: Centro de Formación en Tecnologías de la Información y las Comunicaciones de Madrid
@@ -226,6 +244,88 @@ content:
           - Python
           - SQL
           - Pandas
+
+      - layout: left
+        title: Core Networks School
+        caption: Septiembre 2022 - Noviembre 2022</br><mark>Madrid, España</mark> 
+        sub_title: JAVA Enterprise Edition
+        description: | # this will include new lines to allow paragraphs
+          Uso de JAVA Enterprise Edition para desarrollar aplicaciones basadas en la web.
+
+          - Java
+          - SQL
+          - Angular
+          - Servicios
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+#    PROYECTOS
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+  - title: Proyectos # Título de la sección
+    layout: list # Tipo de contenido (lista/texto)
+    content:
+
+      - layout: top-middle
+        title: Repositorio de Internacionalización en GitHub
+        link: github.com/agomezmartin/internationalization
+        link_text: https://github.com/agomezmartin/internationalization
+        additional_links:
+          - title:  agomezmartin/internationalization
+            icon: fab fa-github
+            url: https://github.com/agomezmartin/internationalization
+        description: | # this will include new lines to allow paragraphs
+          Me apasiona explorar los diferentes enfoques para <mark>internacionalizar</mark> el contenido de software, por lo que decidí realizar un seguimiento de las estrategias con las que me encuentro, para tenerlas a mano en tareas cotidianas.
+          Al tener el repositorio público, estaría orgulloso de que fuera útil para otros profesionales.
+
+      - layout: top-middle
+        title: Aplicación Django - CRUD
+        link: github.com/agomezmartin/
+        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
+        additional_links:
+          - title:  agomezmartin
+            icon: fab fa-github
+            url: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
+        description: | # this will include new lines to allow paragraphs
+          Comencé este proyecto como una forma de aprender <mark>Django</mark> y realizar operaciones <mark>CRUD</mark> usando el marco. He aprendido muchas habilidades con esto y me siento muy orgulloso de tenerlo en mi portafolio.
+
+      - layout: top-middle
+        title: Aplicación Django - DB (creación de cliente)
+        link: github.com/agomezmartin/
+        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
+        additional_links:
+          - title:  agomezmartin
+            icon: fab fa-github
+            url: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
+        description: | # this will include new lines to allow paragraphs
+          Comencé este proyecto como una forma de aprender <mark>Django</mark>, manejar formularios y <mark>bases de datos</mark>. He aprendido muchas habilidades con esto y me siento muy orgulloso de tenerlo en mi portafolio.
+
+  - title: Software y Tecnología
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+
+      <img src="/images/memoq.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/sdl.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/XTM.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/articulate.png" width="10%" height="10%" style="margin-left:5%;margin-right:5%;margin-bottom:5%">
+      <img src="/images/i18n.png" width="10%" height="10%" style="margin-bottom:5%">
+      <img src="/images/total_commander.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/regex.jpeg" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/mysql.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/bootstrap.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/angular.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/rest_api.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/linux.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/windows.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
+      <br>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
   - title: Soft skills
     layout: text
