@@ -49,13 +49,13 @@ linkedin_username: albertogomezmartin
 about_title: Sobre mi
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-    Originalmente español, he vivido en Londres durante más de una década, donde realicé tanto mis estudios como el inicio de mi carrera profesional.
     
-    Como profesional, me he desarrollado principalmente en proveedores globales de servicios lingüísticos (<mark>Language Service Providers</mark> o LSP), trabajando como <mark>Ingeniero de Localización</mark>. Aunque provengo de una formación en traducción, esta posición me permitió trabajar codo a codo con profesionales formados en IT, donde ideamos juntos soluciones para agilizar y escalar los procesos de localización de los productos de software de nuestros clientes.
-    
-    Después de pasar más de <mark>seis años</mark> en la industria de localización ayudando a clientes de software a localizar (traducir) sus productos, actualmente trabajo como <mark>Ingeniero de Software</mark> en una empresa del sector energético utilizando lenguajes de programación <mark>C#</mark> y <mark>VBA</mark>.
+    Soy Ingeniero de Localización y Software con una sólida formación en el sector educativo, tras trabajar en 2014 para <mark>Grupo MT</mark> como profesor de lengua inglesa, pude estar en contacto con la gestión de proyectos educativos y ser consciente de la importancia de una enseñanza innovadora y personalizada.
 
-    Actualmente, trabajo como <mark>desarrollador de software</mark> en Madrid, España. Sin embargo, estoy deseando volver a la industria de la localización, idealmente en un rol del lado del cliente dentro de un entorno dinámico e innovador. Me atraen especialmente las oportunidades en el sector farmacéutico, donde puedo aplicar mi experiencia técnica para apoyar las comunicaciones globales críticas en una industria regulada y de ritmo rápido.
+    A lo largo de mi carrera profesional, he desarrollado habilidades técnicas y de <mark>gestión de proyectos</mark> trabajando en diversos entornos, desde el sector de la localización hasta el desarrollo de software. Sin embargo, mi pasión por la educación y el crecimiento personal de los estudiantes me ha llevado a buscar una oportunidad para regresar al ámbito educativo. Estoy motivado por la posibilidad de gestionar proyectos que contribuyan al aprendizaje de una forma divertida y dinámica, tal como lo hacía cuando colaboré con <mark>Grupo MT</mark> en 2014.
+
+    Mi enfoque profesional está centrado en la <mark>gestión de equipos y proyectos</mark>, y poseo una visión integral del trabajo colaborativo en entornos de aprendizaje. Estoy particularmente interesado en esta oportunidad dentro de un equipo innovador y comprometido con el desarrollo de actividades educativas que potencien el aprendizaje de los alumnos.
+
 content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -71,11 +71,31 @@ content:
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
       - layout: left
+        title: Replant
+#        link: https://inforyde.com/
+#        link_text: inforyde.com
+        sub_title: Desarrollador Web y Cofundador
+        caption: Diciembre 2024 - En la actualidad</br><mark>Madrid, España</mark> 
+      #  quote: >
+
+        description: | # this will include new lines to allow paragraphs
+
+          Desarrollo y mantenimiento de la plataforma web de Replant, una startup dedicada a la venta de plantas de interior. 
+          Utilizo tecnologías como Angular, TypeScript y bases de datos SQL desde Wordpress para crear una experiencia de usuario intuitiva y eficiente.
+          
+            - Angular
+            - TypeScript
+            - HTML/CSS
+            - SQL
+            
+          Implementación de funcionalidades interactivas y optimización del rendimiento del sitio web para mejorar la experiencia del usuario.
+
+      - layout: left
         title: Inforyde
         link: https://inforyde.com/
         link_text: inforyde.com
         sub_title: Ingeniero de Software Junior
-        caption: Enero 2024 - En progreso</br><mark>Madrid, España</mark> 
+        caption: Enero 2024 - Novimebre 2024</br><mark>Madrid, España</mark> 
       #  quote: >
 
         description: | # this will include new lines to allow paragraphs
@@ -129,6 +149,17 @@ content:
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
       - layout: left
+        title: Grupo MT
+        link: https://www.mtgrupo.com/
+        link_text: mtgrupo.com
+        sub_title: Profesor de inglés e inmersiones lingüísticas
+        caption: Febrero 2014 - Octubre 2014</br><mark>Madrid, España</mark> 
+#        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+            Durante mi tiempo en Grupo MT, tuve la oportunidad de continuar desarrollando mis habilidades lingüísticas y pedagógicas al impartir clases particulares de inglés a estudiantes de los primeros cursos de primaria.
+
+      - layout: left
         title: GAMESYS LIMITED
         link: https://www.gamesysgroup.com/
         link_text: gamesysgroup.com
@@ -149,7 +180,7 @@ content:
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
-            Ayudando a los estudiantes a preparar sus exámenes orales de A Levels.
+            Asistente de conversación y preparador de exámenes orales de acceso a la universidad (A Levels).
 
       - layout: left
         title: Lady Margaret School
@@ -160,7 +191,7 @@ content:
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
-            Ayudando a los estudiantes a preparar sus exámenes orales de A Levels.
+            Asistente de conversación y preparador de exámenes orales de acceso a la universidad (A Levels).
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
