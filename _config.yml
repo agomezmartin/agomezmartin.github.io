@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Alberto Gómez-Martín
-title: Localization Engineer and Jr. Software Engineer
+title: Ingeniero de Localización y Software
 email: agomezmartinpro@gmail.com
 teléfono: +34 665042685
 website: https://agomezmartin.github.io/
@@ -46,26 +46,26 @@ linkedin_username: albertogomezmartin
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
+# about_title: Sobre mi
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-    Originally a Spanish national, I have lived in London for over a decade where I carried out both my studies and the onset of my professional career.
-   
-    Over the years, I have specialized as a <mark>Localization Engineer</mark> working for global <mark>Language Service Providers</mark> (LSPs), and gained extensive experience in preparing diverse file formats for translation, working with industry-leading Computer-Assisted Translation (CAT) tools such as Wordfast, <mark>MemoQ</mark>, SDL Trados, and cloud-based platforms like <mark>XTM</mark>.
-
-    In addition to working with Microsoft 365 and <mark>e-learning applications</mark>, I am passionate about engineering text files across multiple programming languages. My expertise includes developing custom <mark>parsers</mark>, <mark>regular expressions</mark>, and optimizing and automating processes through scripting, which enhances both the accuracy and speed of localization projects.
+    Originalmente español, he vivido en Londres durante más de una década, donde realicé tanto mis estudios como el inicio de mi carrera profesional.
+    
+    Como profesional, me he desarrollado principalmente en proveedores globales de servicios lingüísticos (<mark>Language Service Providers</mark> o LSP), trabajando como <mark>Ingeniero de Localización</mark>. Aunque provengo de una formación en traducción, esta posición me permitió trabajar codo a codo con profesionales formados en IT, donde ideamos juntos soluciones para agilizar y escalar los procesos de localización de los productos de software de nuestros clientes.
+    
+    Después de pasar más de <mark>seis años</mark> en la industria de localización ayudando a clientes de software a localizar (traducir) sus productos, actualmente trabajo como <mark>Ingeniero de Software</mark> en una empresa del sector energético utilizando lenguajes de programación <mark>C#</mark> y <mark>VBA</mark>.
 
     Currently, I am working as a <mark>software developer</mark> in Madrid, Spain. However, I am eager to return to the localization industry, ideally in a client-side role within a dynamic and innovative environment. I am especially drawn to opportunities in the pharmaceutical sector, where I can apply my technical expertise to support critical global communications in a fast-paced, regulated industry.
 content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-#    EXPERIENCE
+#    EXPERIENCIA
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experiencia # Título de la sección
+    layout: list # Tipo de contenido (lista/texto)
     content:
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
@@ -74,238 +74,201 @@ content:
         title: Inforyde
         link: https://inforyde.com/
         link_text: inforyde.com
-        sub_title: Software Engineer
-        caption: January 2024 - In progress</br><mark>Madrid, Spain</mark> 
+        sub_title: Ingeniero de Software Junior
+        caption: Enero 2024 - En progreso</br><mark>Madrid, España</mark> 
       #  quote: >
 
         description: | # this will include new lines to allow paragraphs
 
-          Inforyde provides advanced software solutions to the energy sector, including optimization and automation tools to support energy management and efficiency.
-
-          - Developing custom <mark>Excel-based tools</mark> leveraging VBA (Visual Basic for Applications) to automate complex data processing tasks, reducing manual input and improving data accuracy across the energy portfolio management processes.
-          - Integrating <mark>C# plugins</mark> within Excel to extend its functionality, enabling dynamic data analysis, real-time updates, and custom-built models tailored to client-specific energy forecasting and reporting requirements.
-          - Optimizing existing Excel sheets used by teams for energy cost simulations, utilizing advanced <mark>VBA scripting</mark> to improve processing time and streamline calculations.
-          - Provide ongoing maintenance and updates to tools, ensuring seamless integration of new features and upgrades in response to evolving client and industry needs.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+          Diseño, desarrollo y mantenimiento de soluciones de software para herramientas energéticas.
+          Contribuyo a la definición de productos y servicios futuros basados en C# y VBA.
+          
+            - Entity Framework
+            - LINQ
+            - ADO
+            
+          Control de versiones con Git y GitHub en la línea de comandos de Windows. Solicitudes de tickets en Jira.
 
       - layout: left
         title: ACOLAD
         link: https://www.acolad.com/
         link_text: acolad.com
-        sub_title: Technical Services Lead | Localization Engineer
-        caption: September 2018 - September 2021</br><mark>Madrid, Spain</mark> 
+        sub_title: Líder de Servicios Técnicos | Ingeniero de Localización
+        caption: Septiembre 2018 - Septiembre 2021</br><mark>Madrid, España</mark> 
       #  quote: >
 
         description: | # this will include new lines to allow paragraphs
           
-          As a Localization Engineer at Acolad, I was responsible for the technical aspects of localization and translation projects, ensuring seamless adaptation of content for global markets. Key responsibilities included:
+          <mark>Gestión técnica de proyectos</mark>
+            - Evaluación y análisis desde el punto de vista técnico de los productos de los clientes.
+            - Presupuestos
+            - Gestión técnica de proveedores y documentación en Confluence
 
-          - <mark>Software Localization:</mark> Managed the localization of software interfaces, ensuring proper internationalization and adaptation of UI/UX elements across multiple languages. Collaborated with developers to ensure seamless functionality post-localization.
-
-          - <mark>e-Learning Localization:</mark> Assisted in the localization of e-learning courses, including the extraction of subtitles to Excel files and their conversion into SRT format after translation for seamless integration into training videos.
-
-          - <mark>XML and DITA:</mark> Worked with XML and DITA formats to structure and manage documentation, ensuring content could be efficiently localized across different languages and regions.
-
-          - <mark>Parsing and Regexes:</mark> Employed parsing techniques and regular expressions (regex) to extract translatable content from various file formats, automate string extraction, and apply quality checks.
-
-          - <mark>Localization Testing and QA:</mark> Performed functional and linguistic testing of localized content in software and e-learning environments to ensure proper functionality, cultural relevance, and high-quality user experience across different locales.
-
-          Through this role, I strengthened my technical expertise in software localization, XML-based documentation, and e-learning content adaptation while contributing to the successful deployment of globalized products.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+          <mark>Ingeniería de Localización</mark>
+            - Preparación de archivos para procesamiento en CAT
+            - Creación de parsers usando expresiones regulares
+            - Segmentación
+            - Migraciones
+            - Gestión de Memorias de Traducción
+            - Scripting
 
       - layout: left
         title: Transperfect
         link: https://www.transperfect.com/
         link_text: transperfect.com
-        sub_title: Localization Engineer
-        caption: Madrid, Spain
-        caption: May 2015 - August 2018</br><mark>Madrid, and Barcelona</mark>, Spain 
+        sub_title: Ingeniero de Localización
+        caption: Madrid, España
+        caption: Mayo 2015 - Agosto 2018</br><mark>Madrid y Barcelona</mark>, España 
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
 
-          As part of the localization Engineering team, we were responsible for receiving clients' products, assessing their suitability for localization processing and putting together quotes.
-          <mark>Segmentation</mark> and <mark>parse development</mark> were core parts of our everyday load.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-      - layout: left
-        title: 
-        link:
-        link_text: 
-        sub_title: 
-        caption: 
-#        quote: >
-
-        description: | # this will include new lines to allow paragraphs
-            
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+          Como parte del equipo de ingeniería de localización, éramos responsables de recibir los productos de los clientes, evaluar su idoneidad para el procesamiento de localización y elaborar presupuestos.
+          <mark>Segmentación</mark> y <mark>desarrollo de parsers</mark> fueron tareas fundamentales de nuestro trabajo diario.
 
       - layout: left
         title: GAMESYS LIMITED
         link: https://www.gamesysgroup.com/
         link_text: gamesysgroup.com
-        sub_title: Translator and localizer
-        caption: October 2014 - May 2015</br><mark>London, United Kingdon</mark> 
+        sub_title: Traductor y localizador
+        caption: Abril 2013 - Octubre 2014</br><mark>Londres, Reino Unido</mark> 
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
-            During my time at Gamesys, I was involved in the <mark>translation and localization</mark> of their <mark>HotShot Trader</mark> online video game project. The online video game was based in JavaScript and internationalized by extracting strings into JSON formatted files.
-            This was an incredible opportunity to get my first professional contact with real software projects as I was just coming out of university.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+            Durante mi tiempo en Gamesys, participé en la <mark>traducción y localización</mark> de su proyecto de videojuego en línea <mark>HotShot Trader</mark>. El videojuego en línea estaba basado en JavaScript e internacionalizado mediante la extracción de cadenas a archivos en formato JSON.
+            Esta fue una oportunidad increíble para tener mi primer contacto profesional con proyectos reales de software mientras salía de la universidad.
 
       - layout: left
         title: The London Oratory School
         link: https://www.london-oratory.org/
         link_text: london-oratory.org
-        sub_title: Spanish Language Assistant
-        caption: October 2014 - May 2015</br><mark>London, United Kingdon</mark> 
+        sub_title: Asistente de Lengua Española
+        caption: Octubre 2014 - Mayo 2015</br><mark>Londres, Reino Unido</mark> 
 #        quote: >
 
         description: | # this will include new lines to allow paragraphs
-            Help students prepare their A Levels speaking exams.
+            Ayudando a los estudiantes a preparar sus exámenes orales de A Levels.
+
+      - layout: left
+        title: Lady Margaret School
+        link: https://ladymargaret.lbhf.sch.uk/
+        link_text: ladymargaret.lbhf.sch.uk<br/>
+        sub_title: Asistente de Lengua Española
+        caption: Octubre 2014 - Mayo 2015</br><mark>Londres, Reino Unido</mark> 
+#        quote: >
+
+        description: | # this will include new lines to allow paragraphs
+            Ayudando a los estudiantes a preparar sus exámenes orales de A Levels.
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-#    EDUCATION
+#    EDUCACIÓN
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Educación # Título de la sección
+    layout: list # Tipo de contenido (lista/texto)
     content:
-    
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
       - layout: left
         title: Imperial College London
-        caption: October 2012 - September 2013</br><mark>London, United Kingdon</mark> 
-        sub_title: MSc Scientific, Medical and Technical Translation with Translation Technology
-#        quote: >
-#          Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
+        caption: Octubre 2012 - Septiembre 2013</br><mark>Londres, Reino Unido</mark> 
+        sub_title: MSc Traducción Científica, Médica y Técnica con Tecnología de la Traducción
         description: | # this will include new lines to allow paragraphs
-          During my time at Imperial College London (ICL) I acquired some of my field-specific technical skills regarding <mark>translation technology</mark>.
+          Durante mi tiempo en Imperial College London (ICL) adquirí habilidades técnicas específicas de mi campo relacionadas con <mark>tecnología de la traducción</mark>.
           
-          Project Management, Computer-Assisted-Translation tools (CAT), or Machine Translation were some of the subjects that connected most strongly with the professional world.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+          Gestión de proyectos, herramientas de traducción asistida por ordenador (CAT) o Traducción Automática fueron algunos de los temas que se conectaron más estrechamente con el mundo profesional.
 
       - layout: left
         title: Imperial College London
-        caption: April 2013 - July 2013</br><mark>London, United Kingdon</mark> 
-        sub_title: Certificate in Software Localization
-#         quote: >
-#           Imperial College London is a world-class university with a mission to benefit society through excellence in science, engineering, medicine and business.
+        caption: Abril 2013 - Julio 2013</br><mark>Londres, Reino Unido</mark> 
+        sub_title: Certificado en Localización de Software
         description: | # this will include new lines to allow paragraphs
-          This all-encompasing <mark>Software Localization</mark> certificate provided specific technical insights into the processes involved in identifying and handling text to be extracted and localized from software products.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+          Este certificado en <mark>Localización de Software</mark> proporcionó conocimientos técnicos específicos sobre los procesos involucrados en la identificación y manejo de textos a extraer y localizar desde productos de software.
 
       - layout: left
-        title: University of Westeminster
-        caption: September 2009 - May 2012</br><mark>London, United Kingdon</mark> 
-        sub_title: BA in Translation (Spanish-English)
-#        quote: >
-
+        title: University of Westminster
+        caption: Septiembre 2009 - Mayo 2012</br><mark>Londres, Reino Unido</mark> 
+        sub_title: Grado en Traducción (Español-Inglés)
         description: | # this will include new lines to allow paragraphs
-          Carrying out a BA in Translation at University of Westminster allowed to deveop not only direct and indirect translation skills, but also intercultural awareness studies.
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+          El realizar un Grado en Traducción en la Universidad de Westminster me permitió desarrollar no solo habilidades de traducción directa e indirecta, sino también estudios sobre conciencia intercultural.
 
       - layout: left
         title: CRN
-        caption: September 2023 - November 2023</br><mark>Madrid, Spain</mark> 
-        sub_title: Java Proffesional Standard Edition (ORACLE Certificate)
-#        quote: >
-
+        caption: Septiembre 2023 - Noviembre 2023</br><mark>Madrid, España</mark> 
+        sub_title: Java Proffesional Standard Edition (Certificado ORACLE)
         description: | # this will include new lines to allow paragraphs
-          Java Standard Edition: the course covers J2SE's API and includes a 10-hours long preparation for the <mark>Oracle Certified Professional, Java SE Programme</mark>. 
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+          Java Standard Edition: el curso cubre el API de J2SE e incluye una preparación de 10 horas para el programa <mark>Oracle Certified Professional, Java SE</mark>. 
 
       - layout: left
-        title: Centro de Formación en Tecnologías de la información y las comunicaciones de Madrid
-        caption: May 2023 - July 2023</br><mark>Madrid, Spain</mark> 
-        sub_title: Data development and visualization with Python (Django and Pandas)
-#        quote: >
-
+        title: Centro de Formación en Tecnologías de la Información y las Comunicaciones de Madrid
+        caption: Mayo 2023 - Julio 2023</br><mark>Madrid, España</mark> 
+        sub_title: Desarrollo y visualización de datos con Python (Django y Pandas)
         description: | # this will include new lines to allow paragraphs
-          This <mark>intensive course</mark> dug into the world of data visualization using Python with a focus on <mark>Django</mark> framework.
+          Este <mark>curso intensivo</mark> se adentró en el mundo de la visualización de datos usando Python con un enfoque en el marco <mark>Django</mark>.
 
           - Django
           - Python
           - SQL
           - Pandas
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
       - layout: left
         title: Core Networks School
-        caption: September 2022 - November 2022</br><mark>Madrid, Spain</mark> 
+        caption: Septiembre 2022 - Noviembre 2022</br><mark>Madrid, España</mark> 
         sub_title: JAVA Enterprise Edition
-#        quote: >
-
         description: | # this will include new lines to allow paragraphs
-          Using JAVA Enterprise Edition to develop web-based applications.
+          Uso de JAVA Enterprise Edition para desarrollar aplicaciones basadas en la web.
 
           - Java
           - SQL
           - Angular
-          - Services
-
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-#    SOFT SKILLS
+          - Servicios
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-  - title: Soft skills
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-
-      - Analytic mind
-      - Agile project management, and adaptiveness to change
-      - Assertive communication
-      - Motivation for learning
-      - Mentoring and coaching
-      - Customer-first approach
-      - Accountable
+#    PROYECTOS
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
-#    PROJECTS
-
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Proyectos # Título de la sección
+    layout: list # Tipo de contenido (lista/texto)
     content:
 
       - layout: top-middle
-        title: Internationalization GitHub Repository
+        title: Repositorio de Internacionalización en GitHub
         link: github.com/agomezmartin/internationalization
         link_text: https://github.com/agomezmartin/internationalization
         additional_links:
           - title:  agomezmartin/internationalization
             icon: fab fa-github
             url: https://github.com/agomezmartin/internationalization
-#        quote: >
-
         description: | # this will include new lines to allow paragraphs
-          I feel passionate about the different approaches to <mark>intenarionalizing</mark> software content, so I decied to keep track of the strategies I come across in an attempt to have it handy for everyday tasks.
-          By having the repository public, I would be proud for it to be helpful to other professionals.
+          Me apasiona explorar los diferentes enfoques para <mark>internacionalizar</mark> el contenido de software, por lo que decidí realizar un seguimiento de las estrategias con las que me encuentro, para tenerlas a mano en tareas cotidianas.
+          Al tener el repositorio público, estaría orgulloso de que fuera útil para otros profesionales.
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+      - layout: top-middle
+        title: Aplicación Django - CRUD
+        link: github.com/agomezmartin/
+        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
+        additional_links:
+          - title:  agomezmartin
+            icon: fab fa-github
+            url: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/CRUD_i18n
+        description: | # this will include new lines to allow paragraphs
+          Comencé este proyecto como una forma de aprender <mark>Django</mark> y realizar operaciones <mark>CRUD</mark> usando el marco. He aprendido muchas habilidades con esto y me siento muy orgulloso de tenerlo en mi portafolio.
 
-#    SOFTWARE TECHNOLOGY
+      - layout: top-middle
+        title: Aplicación Django - DB (creación de cliente)
+        link: github.com/agomezmartin/
+        link_text: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
+        additional_links:
+          - title:  agomezmartin
+            icon: fab fa-github
+            url: https://github.com/agomezmartin/internationalization/tree/main/assets/_projects/django/WebSite_MODAL_FORM_DB_i18n
+        description: | # this will include new lines to allow paragraphs
+          Comencé este proyecto como una forma de aprender <mark>Django</mark>, manejar formularios y <mark>bases de datos</mark>. He aprendido muchas habilidades con esto y me siento muy orgulloso de tenerlo en mi portafolio.
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
-  - title: Software & Technology
+  - title: Software y Tecnología
     layout: text
     content: | # this will include new lines to allow paragraphs
 
@@ -317,18 +280,35 @@ content:
       <img src="/images/total_commander.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
       <img src="/images/emeditor.png" width="20%" height="10%" style="margin-bottom:5%">
       <img src="/images/regex.jpeg" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/jira.png" width="20%" height="10%" style="margin-bottom:5%">
-      <img src="/images/django.png" width="15%" height="20%" style="margin-left:5%;margin-bottom:5%">
+      <img src="/images/django.png" width="20%" height="20%" style="margin-bottom:5%">
+      <img src="/images/mysql.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/bootstrap.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/angular.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/rest_api.png" width="20%" height="10%" style="margin-bottom:5%">
+      <img src="/images/linux.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/windows.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/i18n.png" width="10%" height="10%" style="margin-right:5%; margin-bottom:5%">
+      <img src="/images/l10n.png" width="20%" height="10%" style="margin-bottom:5%">
       <br>
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+  - title: Un Poco Más Sobre Mí
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Además de mis intereses en internacionalización e ingeniería de software, algunos de mis otros intereses y pasatiempos son:
+
+      - Inversión y gestión de capital
+      - Meditación
+      - Música
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
 # Footer
 
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-
 footer_show_references: false
-# references_title: References on request (Override references text)
+# references_title: Referencias bajo petición
 
 # Build settings
 remote_theme: sproogen/resume-theme
