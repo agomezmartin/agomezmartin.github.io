@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Organic vs Concrete</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: #0a0a0a;
+    }
+    canvas {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+
+<script>
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(60, window.innerWidth/window.innerHeight, 0.1, 100);
+camera.position.z = 5;
+
+const renderer = new THREE.WebGLRenderer({ antialias: true });
+renderer.setSize(window.innerWidth, window.innerHeight);
+document.body.appendChild(renderer.domElement);
+
+// -------------------------
+// HORMIGÓN (PLANO BASE)
+// -------------------------
+const planeGeo = new THREE.PlaneGeometry(20, 20, 50, 50);
+const planeMat = new THREE.MeshStandardMaterial({
+  color: 0x888888,
+  roughness: 1,
+  metalness: 0
+});
+const plane = new THREE.Mesh(planeGeo, planeMat);
+plane.rotation.x = -Math.PI / 2;
+plane.position.y = -1.5;
+scene.add(plane);
+
+// -------------------------
+// LUZ
+// -------------------------
+const light = new THREE.DirectionalLight(0xffffff, 1);
+light.position.set(2, 5, 3);
+scene.add(light);
+
+scene.add(new THREE.AmbientLight(0x404040));
+
+// -------------------------
+// PLANTAS (CURVAS)
+// -------------------------
+const curves = [];
+
+for (let i = 0; i < 40; i++) {
+  const points = [];
+
+  let x = (Math.random() - 0.5) * 6;
+  let z = (Math.random() - 0.5) * 6;
+
+  for (let j = 0; j < 20; j++) {
+    points.push(new THREE.Vector3(
+      x + Math.sin(j * 0.3) * 0.2,
+      j * 0.15,
+      z + Math.cos(j * 0.3) * 0.2
+    ));
+  }
+
+  const curve = new THREE.CatmullRomCurve3(points);
+  const geometry = new THREE.TubeGeometry(curve, 100, 0.01, 8, false);
+
+  const material = new THREE.MeshStandardMaterial({
+    color: 0x2e8b57,
+    emissive: 0x0a2a1a,
+    roughness: 0.8
+  });
+
+  const mesh = new THREE.Mesh(geometry, material);
+  scene.add(mesh);
+
+  curves.push({ mesh, basePoints: points });
+}
+
+// -------------------------
+// ANIMACIÓN ORGÁNICA
+// -------------------------
+let time = 0;
+
+function animate() {
+  requestAnimationFrame(animate);
+  time += 0.01;
+
+  curves.forEach((c, i) => {
+    const positions = c.mesh.geometry.attributes.position;
+
+    for (let j = 0; j < positions.count; j++) {
+      const y = positions.getY(j);
+
+      const sway = Math.sin(time + y * 2 + i) * 0.02;
+
+      positions.setX(j, positions.getX(j) + sway);
+      positions.setZ(j, positions.getZ(j) + sway);
+    }
+
+    positions.needsUpdate = true;
+  });
+
+  renderer.render(scene, camera);
+}
+
+animate();
+
+// -------------------------
+window.addEventListener("resize", () => {
+  camera.aspect = window.innerWidth / window.innerHeight;
+  camera.updateProjectionMatrix();
+  renderer.setSize(window.innerWidth, window.innerHeight);
+});
+</script>
+</body>
+</html>
