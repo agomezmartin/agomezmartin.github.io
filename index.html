@@ -42,8 +42,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: clamp(20px, 5vw + 2vh, 72px); /* Dinámico según ancho + alto */
-  font-weight: 900;
+  font-size: clamp(20px, 5vw + 2vh, 72px);
+  font-weight: 100; /* Thin por defecto en desktop */
   line-height: 1.2;
   z-index: 10;
   pointer-events: none;
@@ -51,16 +51,20 @@ body {
   transition: transform 0.1s linear;
 }
 
-/* Peso dinámico según tamaño */
+/* Tablet */
 @media(max-width: 1024px){
-  .overlay-text{ font-weight: 400; }
+  .overlay-text { font-weight: 400; } /* Regular */
 }
-@media(max-width: 480px){
-  .overlay-text{ font-weight: 100; }
+
+/* Smartphone horizontal */
+@media(max-width: 480px) and (orientation: landscape){
+  .overlay-text { font-weight: 400; font-size: clamp(20px, 5vw + 2vh, 40px); }
 }
-/* Ajuste específico para vertical en móvil */
+
+/* Smartphone vertical */
 @media(max-width: 480px) and (orientation: portrait){
-  .overlay-text{
+  .overlay-text {
+    font-weight: 400; 
     font-size: clamp(28px, 6vw + 4vh, 64px);
   }
 }
