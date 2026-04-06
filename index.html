@@ -4,13 +4,25 @@
 <meta charset="UTF-8" />
 <title>Botanical Concrete</title>
 <style>
-/* Carga local de la fuente Phenomena */
+@font-face {
+  font-family: 'Phenomena';
+  src: url('./fonts/Phenomena/WEB/Phenomena-Thin.woff2') format('woff2'),
+       url('./fonts/Phenomena/WEB/Phenomena-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
 @font-face {
   font-family: 'Phenomena';
   src: url('./fonts/Phenomena/WEB/Phenomena-Regular.woff2') format('woff2'),
-       url('./fonts/Phenomena/WEB/Phenomena-Regular.woff') format('woff'),
-       url('./fonts/Phenomena/WEB/Phenomena-Regular.ttf') format('truetype');
-  font-weight: normal;
+       url('./fonts/Phenomena/WEB/Phenomena-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Phenomena';
+  src: url('./fonts/Phenomena/WEB/Phenomena-Black.woff2') format('woff2'),
+       url('./fonts/Phenomena/WEB/Phenomena-Black.woff') format('woff');
+  font-weight: 900;
   font-style: normal;
 }
 
@@ -22,194 +34,133 @@ body {
   color: #e0e0d0;
 }
 
-/* Overlay de texto centrado */
 .overlay-text {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  font-size: 3vw;
+  font-size: clamp(18px, 5vw, 64px);
+  font-weight: 900;
   line-height: 1.2;
   z-index: 10;
   pointer-events: none;
   text-shadow: 0 0 15px rgba(0,0,0,0.7);
+  transition: transform 0.1s linear;
 }
 
-@media(max-width: 768px){
-  .overlay-text{
-    font-size: 6vw;
-  }
-}
+@media(max-width: 1024px){ .overlay-text{ font-weight: 400; } }
+@media(max-width: 480px){ .overlay-text{ font-weight: 100; font-size: clamp(16px, 6vw, 32px); } }
 </style>
 </head>
 <body>
 
-<div class="overlay-text">
+<div class="overlay-text" id="floating-text">
   Replantea tu espacio.<br>Vence al hormigón
 </div>
 
 <script type="module">
 import * as THREE from 'https://unpkg.com/three@0.152.2/build/three.module.js';
 
-// ---------------------
-// RENDERER
-// ---------------------
 const renderer = new THREE.WebGLRenderer({ antialias:true });
 renderer.setSize(innerWidth, innerHeight);
-renderer.setPixelRatio(Math.min(devicePixelRatio, 2));
+renderer.setPixelRatio(Math.min(devicePixelRatio,2));
 renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 document.body.appendChild(renderer.domElement);
 
-// ---------------------
-// ESCENA
-// ---------------------
 const scene = new THREE.Scene();
-scene.fog = new THREE.Fog(0x040504, 6, 20);
+scene.fog = new THREE.Fog(0x040504,6,20);
 
-// ---------------------
-// CÁMARA
-// ---------------------
-const camera = new THREE.PerspectiveCamera(45, innerWidth/innerHeight, 0.1, 100);
-camera.position.set(0, 3, 10);
+const camera = new THREE.PerspectiveCamera(45, innerWidth/innerHeight, 0.1,100);
+camera.position.set(0,3,10);
 
-// ---------------------
-// SUELO
-// ---------------------
 const ground = new THREE.Mesh(
-  new THREE.PlaneGeometry(60, 60),
-  new THREE.MeshStandardMaterial({
-    color: 0x4d4d4d,
-    roughness: 0.98
-  })
+  new THREE.PlaneGeometry(60,60),
+  new THREE.MeshStandardMaterial({color:0x4d4d4d, roughness:0.98})
 );
-ground.rotation.x = -Math.PI/2;
-ground.position.y = -1;
-ground.receiveShadow = true;
+ground.rotation.x=-Math.PI/2;
+ground.position.y=-1;
+ground.receiveShadow=true;
 scene.add(ground);
 
-// ---------------------
-// LUCES
-// ---------------------
-const key = new THREE.DirectionalLight(0xffffff, 1.2);
-key.position.set(6, 10, 4);
-key.castShadow = true;
-key.shadow.mapSize.set(2048, 2048);
-scene.add(key);
+const key = new THREE.DirectionalLight(0xffffff,1.2);
+key.position.set(6,10,4); key.castShadow=true; key.shadow.mapSize.set(2048,2048); scene.add(key);
 
-const fill = new THREE.DirectionalLight(0x6a8f6a, 0.35);
-fill.position.set(-4, 5, -3);
-scene.add(fill);
+const fill = new THREE.DirectionalLight(0x6a8f6a,0.35); fill.position.set(-4,5,-3); scene.add(fill);
+scene.add(new THREE.AmbientLight(0xffffff,0.2));
 
-scene.add(new THREE.AmbientLight(0xffffff, 0.2));
-
-// ---------------------
-// TEXTURA HOJA (CANVAS)
-// ---------------------
-function createLeafTexture() {
-  const size = 128;
-  const canvas = document.createElement('canvas');
-  canvas.width = size;
-  canvas.height = size;
-  const ctx = canvas.getContext('2d');
-  ctx.clearRect(0,0,size,size);
-  ctx.beginPath();
-  ctx.moveTo(size/2, size*0.1);
-  ctx.bezierCurveTo(size*0.8, size*0.3, size*0.8, size*0.7, size/2, size*0.9);
-  ctx.bezierCurveTo(size*0.2, size*0.7, size*0.2, size*0.3, size/2, size*0.1);
-  ctx.closePath();
-  const gradient = ctx.createLinearGradient(0,0,0,size);
-  gradient.addColorStop(0,'#6fae6f');
-  gradient.addColorStop(1,'#2f5f2f');
-  ctx.fillStyle = gradient;
-  ctx.fill();
-  ctx.strokeStyle = 'rgba(255,255,255,0.15)';
-  ctx.lineWidth = 2;
-  ctx.beginPath();
-  ctx.moveTo(size/2, size*0.15);
-  ctx.lineTo(size/2, size*0.85);
-  ctx.stroke();
-  const texture = new THREE.CanvasTexture(canvas);
-  texture.colorSpace = THREE.SRGBColorSpace;
-  return texture;
+// TEXTURA HOJA
+function createLeafTexture(){
+  const size=128; const canvas=document.createElement('canvas'); canvas.width=size; canvas.height=size;
+  const ctx=canvas.getContext('2d'); ctx.clearRect(0,0,size,size);
+  ctx.beginPath(); ctx.moveTo(size/2,size*0.1); ctx.bezierCurveTo(size*0.8,size*0.3,size*0.8,size*0.7,size/2,size*0.9);
+  ctx.bezierCurveTo(size*0.2,size*0.7,size*0.2,size*0.3,size/2,size*0.1); ctx.closePath();
+  const gradient=ctx.createLinearGradient(0,0,0,size); gradient.addColorStop(0,'#6fae6f'); gradient.addColorStop(1,'#2f5f2f');
+  ctx.fillStyle=gradient; ctx.fill();
+  ctx.strokeStyle='rgba(255,255,255,0.15)'; ctx.lineWidth=2; ctx.beginPath(); ctx.moveTo(size/2,size*0.15); ctx.lineTo(size/2,size*0.85); ctx.stroke();
+  return new THREE.CanvasTexture(canvas);
 }
 
-const leafTexture = createLeafTexture();
-
-function createLeafMaterial() {
-  return new THREE.MeshStandardMaterial({
-    map: leafTexture,
-    transparent: true,
-    alphaTest: 0.2,
-    side: THREE.DoubleSide,
-    roughness: 0.85,
-    emissive: 0x0a1a0f,
-    emissiveIntensity: 0.15
-  });
-}
-
-function createLeafMesh() {
-  const geo = new THREE.PlaneGeometry(0.5, 0.8);
-  const mat = createLeafMaterial();
-  const mesh = new THREE.Mesh(geo, mat);
-  mesh.castShadow = true;
-  mesh.rotation.z = (Math.random() - 0.5) * 0.4;
-  mesh.scale.setScalar(0.8 + Math.random() * 0.4);
-  return mesh;
-}
+const leafTexture=createLeafTexture();
+function createLeafMaterial(){ return new THREE.MeshStandardMaterial({map:leafTexture,transparent:true,alphaTest:0.2,side:THREE.DoubleSide,roughness:0.85,emissive:0x0a1a0f,emissiveIntensity:0.15}); }
+function createLeafMesh(){ const geo=new THREE.PlaneGeometry(0.5,0.8); const mat=createLeafMaterial(); const mesh=new THREE.Mesh(geo,mat); mesh.castShadow=true; mesh.rotation.z=(Math.random()-0.5)*0.4; mesh.scale.setScalar(0.8+Math.random()*0.4); return mesh; }
 
 function createPlant(x,z){
-  const group = new THREE.Group();
-  let height = 0;
-  const count = 8 + Math.floor(Math.random()*6);
+  const group=new THREE.Group(); let height=0;
+  const count=8+Math.floor(Math.random()*6);
   for(let i=0;i<count;i++){
-    height += 0.3 + Math.random()*0.1;
-    const leaf = createLeafMesh();
-    const angle = Math.random()*Math.PI*2;
-    const radius = 0.15 + Math.random()*0.2;
-    leaf.position.set(x + Math.cos(angle)*radius, height, z + Math.sin(angle)*radius);
-    leaf.rotation.y = angle;
-    leaf.rotation.x = (Math.random()-0.5)*0.5;
+    height+=0.3+Math.random()*0.1;
+    const leaf=createLeafMesh();
+    const angle=Math.random()*Math.PI*2;
+    const radius=0.15+Math.random()*0.2;
+    leaf.position.set(x+Math.cos(angle)*radius,height,z+Math.sin(angle)*radius);
+    leaf.rotation.y=angle; leaf.rotation.x=(Math.random()-0.5)*0.5;
     group.add(leaf);
   }
   return group;
 }
 
-let plants = [];
-function generate(){
-  plants.forEach(p=>scene.remove(p.group));
-  plants=[];
-  const width = 10 * camera.aspect;
-  const depth = 10;
-  const count = Math.floor(width*1.5);
-  for(let i=0;i<count;i++){
-    const x = (Math.random()-0.5)*width;
-    const z = (Math.random()-0.5)*depth;
-    const group = createPlant(x,z);
-    scene.add(group);
-    plants.push({group,phase: Math.random()*10});
-  }
-}
+let plants=[];
+function generate(){ plants.forEach(p=>scene.remove(p.group)); plants=[];
+  const width=10*camera.aspect; const depth=10; const count=Math.floor(width*1.5);
+  for(let i=0;i<count;i++){ const x=(Math.random()-0.5)*width; const z=(Math.random()-0.5)*depth; const group=createPlant(x,z); scene.add(group); plants.push({group,phase:Math.random()*10,x,z}); } }
 
 generate();
 
-let t=0;
+let t=0; const textEl=document.getElementById('floating-text');
 function animate(){
   requestAnimationFrame(animate);
   t+=0.003;
-  camera.position.x = Math.sin(t*0.3)*0.5;
-  camera.lookAt(0,1,0);
-  plants.forEach(p=>p.group.rotation.y = Math.sin(t + p.phase)*0.06);
-  renderer.render(scene, camera);
+
+  camera.position.x=Math.sin(t*0.3)*0.5; camera.lookAt(0,1,0);
+
+  // Rotación plantas
+  plants.forEach(p=>p.group.rotation.y=Math.sin(t+p.phase)*0.06);
+
+  // Movimiento texto
+  const floatY=Math.sin(t*2)*5; const floatX=Math.sin(t*1.2)*3;
+  textEl.style.transform=`translate(-50%, calc(-50% + ${floatY}px)) translateX(${floatX}px)`;
+
+  // Interacción texto → plantas
+  const textScreenX=0; const textScreenZ=0; // como referencia en centro de escena
+  plants.forEach(p=>{
+    const dx=p.x-textScreenX; const dz=p.z-textScreenZ;
+    const dist=Math.sqrt(dx*dx+dz*dz);
+    const influence=Math.max(0, 1-(dist/5)); // sólo plantas cercanas
+    p.group.rotation.y+=Math.sin(t*2+p.phase)*0.01*influence; // giro extra sutil
+    p.group.position.y=0.0 + 0.05*Math.sin(t*3+p.phase)*influence; // leve levitación de hojas cercanas
+  });
+
+  renderer.render(scene,camera);
 }
 
 animate();
 
 addEventListener('resize',()=>{
-  camera.aspect = innerWidth/innerHeight;
+  camera.aspect=innerWidth/innerHeight;
   camera.updateProjectionMatrix();
-  renderer.setSize(innerWidth, innerHeight);
+  renderer.setSize(innerWidth,innerHeight);
   generate();
 });
 </script>
