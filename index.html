@@ -3,218 +3,234 @@
 <head>
 <meta charset="UTF-8" />
 <title>Botanical Concrete</title>
-  <!-- Android Chrome -->
-  <meta name="theme-color" content="#21C063" />
-  <!-- <meta name="theme-color" content="#A8D8FF" /> --> <!-- Galician flag colors -->
 
-  <!-- Safari (iOS) -->
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-  <!-- <meta name="apple-mobile-web-app-status-bar-style" content="blue-translucent" /> --> <!-- Galician flag colors -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
-  <!-- Windows Phone -->
-  <meta name="msapplication-navbutton-color" content="#21C063" />
-  <!-- <meta name="msapplication-navbutton-color" content="#A8D8FF" /> --> <!-- Galician flag colors -->
+<meta name="theme-color" content="#21C063" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
 <style>
-/* Carga de Phenomena con distintos pesos */
-@font-face {
-  font-family: 'Phenomena';
-  src: url('./fonts/Phenomena/WEB/Phenomena-Thin.woff2') format('woff2'),
-       url('./fonts/Phenomena/WEB/Phenomena-Thin.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Phenomena';
-  src: url('./fonts/Phenomena/WEB/Phenomena-Regular.woff2') format('woff2'),
-       url('./fonts/Phenomena/WEB/Phenomena-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Phenomena';
-  src: url('./fonts/Phenomena/WEB/Phenomena-Black.woff2') format('woff2'),
-       url('./fonts/Phenomena/WEB/Phenomena-Black.woff') format('woff');
-  font-weight: 900;
-  font-style: normal;
-}
 
-body {
+html,body{
   margin:0;
   overflow:hidden;
-  background: radial-gradient(circle at 50% 20%,
-  #f8b6ba 0%,
-  #ffeff0 100%
-);
-  font-family: 'Phenomena', 'Helvetica Neue', sans-serif;
-  color: #e0e0d0;
+  font-family:'Phenomena','Helvetica Neue',sans-serif;
 }
 
-/* Overlay de texto centrado y dinámico */
-.overlay-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  font-size: clamp(20px, 5vw + 2vh, 72px);
-  font-weight: 100; /* Thin por defecto en desktop */
-  line-height: 1.2;
-  z-index: 10;
-  pointer-events: none;
-  text-shadow: 0 0 15px rgba(0,0,0,0.7);
-  transition: transform 0.1s linear;
+/* 🌊 Fondo vivo */
+body{
+  --gx:50%;
+  --gy:30%;
+
+  background: radial-gradient(
+    ellipse 130% 80% at var(--gx) var(--gy),
+    #f8b6ba 0%,
+    #ffeff0 100%
+  );
 }
 
-/* Tablet */
-@media(max-width: 1024px){
-  .overlay-text { font-weight: 400; } /* Regular */
+/* Canvas full screen */
+canvas{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100vw;
+  height:100vh;
 }
 
-/* Smartphone horizontal */
-@media(max-width: 480px) and (orientation: landscape){
-  .overlay-text { font-weight: 400; font-size: clamp(20px, 5vw + 2vh, 40px); }
+/* 🌿 TEXTO (base neutra, se controla por JS) */
+.overlay-text{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  font-weight:100;
+  text-align:center;
+  z-index:10;
+  pointer-events:none;
+
+  color: rgba(25,25,25,0.8);
+  text-shadow:
+    0 2px 10px rgba(255,255,255,0.15),
+    0 12px 30px rgba(0,0,0,0.12);
+
+  /* 🖥 desktop base */
+  font-size: clamp(28px, 4vw + 2vh, 72px);
+
+  /* base neutra */
+  color: rgba(25,25,25,0.8);
+
+  text-shadow:
+    0 2px 10px rgba(255,255,255,0.15),
+    0 12px 30px rgba(0,0,0,0.12);
 }
 
-/* Smartphone vertical */
-@media(max-width: 480px) and (orientation: portrait){
-  .overlay-text {
-    font-weight: 400; 
-    font-size: clamp(28px, 6vw + 4vh, 64px);
+/* 📱 MOBILE VERTICAL (más grande y protagonista) */
+@media (max-width: 600px) and (orientation: portrait){
+  .overlay-text{
+    font-size: clamp(44px, 10vw + 6vh, 110px);
   }
 }
+
+/* 📱 MOBILE HORIZONTAL */
+@media (max-width: 900px) and (orientation: landscape){
+  .overlay-text{
+    font-size: clamp(32px, 6vw + 3vh, 80px);
+  }
+}
+
 </style>
 </head>
+
 <body>
 
-<div class="overlay-text" id="floating-text">
-  Replantea tu espacio.<br>Vence al hormigón
+<div class="overlay-text" id="text">
+Replantea tu espacio.<br>Vence al hormigón.
 </div>
 
 <script type="module">
 import * as THREE from 'https://unpkg.com/three@0.152.2/build/three.module.js';
 
-// ---------------------
-/* RENDER */
-const renderer = new THREE.WebGLRenderer({
-  antialias: true,
-  alpha: true
-});
-renderer.setSize(innerWidth, innerHeight);
-renderer.setPixelRatio(Math.min(devicePixelRatio,2));
-renderer.shadowMap.enabled = true;
-renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+/* ---------------- RENDER ---------------- */
+const renderer = new THREE.WebGLRenderer({antialias:true,alpha:true});
+renderer.setSize(innerWidth,innerHeight);
 document.body.appendChild(renderer.domElement);
 
-// ---------------------
-/* ESCENA */
+/* ---------------- SCENE ---------------- */
 const scene = new THREE.Scene();
-scene.background = null;
-scene.fog = new THREE.Fog(0x000000, 6, 20);
 
-// ---------------------
-// CÁMARA
-const camera = new THREE.PerspectiveCamera(45, innerWidth/innerHeight, 0.1,100);
+/* ---------------- CAMERA ---------------- */
+const camera = new THREE.PerspectiveCamera(45,innerWidth/innerHeight,0.1,100);
 camera.position.set(0,3,10);
 
-// ---------------------
-/* SUELO */
-const ground = new THREE.Mesh(
-  new THREE.PlaneGeometry(60,60),
-  new THREE.MeshStandardMaterial({
-    color: 0xee2a34,
-    transparent: true,
-    opacity: 0.25,
-    roughness: 1
-  })
-);
-ground.rotation.x=-Math.PI/2;
-ground.position.y=-1;
-ground.receiveShadow=true;
-scene.add(ground);
+/* ---------------- LIGHT ---------------- */
+const light = new THREE.DirectionalLight(0xffffff,1.2);
+light.position.set(5,10,5);
+scene.add(light);
+scene.add(new THREE.AmbientLight(0xffffff,0.25));
 
-// ---------------------
-// LUCES
-const key = new THREE.DirectionalLight(0xffffff,1.2);
-key.position.set(6,10,4); key.castShadow=true; key.shadow.mapSize.set(2048,2048); scene.add(key);
+/* ---------------- LEAF ---------------- */
+function leafTexture(){
+  const c=document.createElement('canvas');
+  c.width=c.height=128;
+  const ctx=c.getContext('2d');
 
-const fill = new THREE.DirectionalLight(0x6a8f6a,0.35); fill.position.set(-4,5,-3); scene.add(fill);
-scene.add(new THREE.AmbientLight(0xffffff,0.2));
-
-// ---------------------
-// TEXTURA HOJA
-function createLeafTexture(){
-  const size=128; const canvas=document.createElement('canvas'); canvas.width=size; canvas.height=size;
-  const ctx=canvas.getContext('2d'); ctx.clearRect(0,0,size,size);
   ctx.beginPath();
-  ctx.moveTo(size/2,size*0.1);
-  ctx.bezierCurveTo(size*0.8,size*0.3,size*0.8,size*0.7,size/2,size*0.9);
-  ctx.bezierCurveTo(size*0.2,size*0.7,size*0.2,size*0.3,size/2,size*0.1);
-  ctx.closePath();
-  const gradient=ctx.createLinearGradient(0,0,0,size);
-  gradient.addColorStop(0,'#6fae6f'); gradient.addColorStop(1,'#2f5f2f');
-  ctx.fillStyle=gradient; ctx.fill();
-  ctx.strokeStyle='rgba(255,255,255,0.15)'; ctx.lineWidth=2;
-  ctx.beginPath(); ctx.moveTo(size/2,size*0.15); ctx.lineTo(size/2,size*0.85); ctx.stroke();
-  return new THREE.CanvasTexture(canvas);
+  ctx.moveTo(64,10);
+  ctx.bezierCurveTo(100,40,100,90,64,118);
+  ctx.bezierCurveTo(28,90,28,40,64,10);
+
+  const g=ctx.createLinearGradient(0,0,0,128);
+  g.addColorStop(0,'#7fcf7f');
+  g.addColorStop(1,'#2f5f2f');
+
+  ctx.fillStyle=g;
+  ctx.fill();
+
+  return new THREE.CanvasTexture(c);
 }
 
-const leafTexture=createLeafTexture();
-function createLeafMaterial(){ return new THREE.MeshStandardMaterial({map:leafTexture,transparent:true,alphaTest:0.2,side:THREE.DoubleSide,roughness:0.85,emissive:0x0a1a0f,emissiveIntensity:0.15}); }
-function createLeafMesh(){ const geo=new THREE.PlaneGeometry(0.5,0.8); const mat=createLeafMaterial(); const mesh=new THREE.Mesh(geo,mat); mesh.castShadow=true; mesh.rotation.z=(Math.random()-0.5)*0.4; mesh.scale.setScalar(0.8+Math.random()*0.4); return mesh; }
+const tex=leafTexture();
 
-function createPlant(x,z){
-  const group=new THREE.Group(); let height=0;
-  const count=8+Math.floor(Math.random()*6);
-  for(let i=0;i<count;i++){
-    height+=0.3+Math.random()*0.1;
-    const leaf=createLeafMesh();
-    const angle=Math.random()*Math.PI*2;
-    const radius=0.15+Math.random()*0.2;
-    leaf.position.set(x+Math.cos(angle)*radius,height,z+Math.sin(angle)*radius);
-    leaf.rotation.y=angle; leaf.rotation.x=(Math.random()-0.5)*0.5;
-    group.add(leaf);
+/* ---------------- PLANTS ---------------- */
+function plant(x,z){
+  const g=new THREE.Group();
+  let h=0;
+
+  for(let i=0;i<12;i++){
+    h+=0.25;
+
+    const mat=new THREE.MeshStandardMaterial({
+      map:tex,
+      transparent:true,
+      side:THREE.DoubleSide,
+      roughness:0.9
+    });
+
+    const m=new THREE.Mesh(
+      new THREE.PlaneGeometry(0.5,0.8),
+      mat
+    );
+
+    const a=Math.random()*Math.PI*2;
+    m.position.set(x+Math.cos(a)*0.25,h,z+Math.sin(a)*0.25);
+    m.rotation.y=a;
+
+    g.add(m);
   }
-  return group;
+
+  return g;
 }
 
 let plants=[];
-function generate(){ plants.forEach(p=>scene.remove(p.group)); plants=[];
-  const width=10*camera.aspect; const depth=10; const count=Math.floor(width*1.5);
-  for(let i=0;i<count;i++){ const x=(Math.random()-0.5)*width; const z=(Math.random()-0.5)*depth; const group=createPlant(x,z); scene.add(group); plants.push({group,phase:Math.random()*10,x,z}); } }
+
+function generate(){
+  plants.forEach(p=>scene.remove(p));
+  plants=[];
+
+  const width=12*camera.aspect;
+
+  for(let i=0;i<width*2;i++){
+    const x=(Math.random()-0.5)*width;
+    const z=(Math.random()-0.5)*10;
+
+    const p=plant(x,z);
+    scene.add(p);
+    plants.push(p);
+  }
+}
 
 generate();
 
-// ---------------------
-// ANIMACIÓN
-let t=0; const textEl=document.getElementById('floating-text');
+/* ---------------- ANIMATION ---------------- */
+let t=0;
+const text=document.getElementById('text');
+
 function animate(){
   requestAnimationFrame(animate);
   t+=0.003;
 
-  camera.position.x=Math.sin(t*0.3)*0.5; camera.lookAt(0,1,0);
+  /* cámara */
+  camera.position.x=Math.sin(t*0.4)*0.8;
+  camera.position.y=3+Math.sin(t*0.3)*0.3;
+  camera.lookAt(0,1,0);
 
-  // Rotación plantas
-  plants.forEach(p=>p.group.rotation.y=Math.sin(t+p.phase)*0.06);
+  /* fondo vivo */
+  const gx=50+Math.sin(t*0.5)*12;
+  const gy=30+Math.sin(t*0.7)*10;
 
-  // Movimiento texto
-  const floatY=Math.sin(t*2)*5; const floatX=Math.sin(t*1.2)*3;
-  textEl.style.transform=`translate(-50%, calc(-50% + ${floatY}px)) translateX(${floatX}px)`;
+  document.body.style.setProperty('--gx',gx+'%');
+  document.body.style.setProperty('--gy',gy+'%');
 
-  // Interacción texto → plantas
-  const textScreenX=0; const textScreenZ=0; 
+  /* 🌿 plantas */
   plants.forEach(p=>{
-    const dx=p.x-textScreenX; const dz=p.z-textScreenZ;
-    const dist=Math.sqrt(dx*dx+dz*dz);
-    const influence=Math.max(0, 1-(dist/5));
-    p.group.rotation.y+=Math.sin(t*2+p.phase)*0.01*influence;
-    p.group.position.y=0.0 + 0.05*Math.sin(t*3+p.phase)*influence;
+    p.rotation.y+=0.002;
   });
+
+  /* 🌫 COLOR GRADING PARA TEXTO */
+  const tone = Math.sin(t*0.5)*0.5 + 0.5;
+
+  const r = 20 + tone*20;
+  const g = 20 + tone*20;
+  const b = 20 + tone*20;
+
+  const alpha = 0.75 + tone*0.15;
+
+  text.style.color = `rgba(${r},${g},${b},${alpha})`;
+
+  /* flotación texto */
+  const fy=Math.sin(t*2)*5;
+  const fx=Math.sin(t*1.2)*3;
+
+  text.style.transform =
+    `translate(-50%, calc(-50% + ${fy}px)) translateX(${fx}px)`;
 
   renderer.render(scene,camera);
 }
 
 animate();
 
+/* ---------------- RESIZE ---------------- */
 addEventListener('resize',()=>{
   camera.aspect=innerWidth/innerHeight;
   camera.updateProjectionMatrix();
