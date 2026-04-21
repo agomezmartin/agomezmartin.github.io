@@ -3,6 +3,17 @@
 <head>
 <meta charset="UTF-8" />
 <title>Botanical Concrete</title>
+  <!-- Android Chrome -->
+  <meta name="theme-color" content="#21C063" />
+  <!-- <meta name="theme-color" content="#A8D8FF" /> --> <!-- Galician flag colors -->
+
+  <!-- Safari (iOS) -->
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <!-- <meta name="apple-mobile-web-app-status-bar-style" content="blue-translucent" /> --> <!-- Galician flag colors -->
+
+  <!-- Windows Phone -->
+  <meta name="msapplication-navbutton-color" content="#21C063" />
+  <!-- <meta name="msapplication-navbutton-color" content="#A8D8FF" /> --> <!-- Galician flag colors -->
 <style>
 /* Carga de Phenomena con distintos pesos */
 @font-face {
@@ -30,7 +41,10 @@
 body {
   margin:0;
   overflow:hidden;
-  background: radial-gradient(circle at 50% 20%, #0f1512, #040504);
+  background: radial-gradient(circle at 50% 20%,
+  #f8b6ba 0%,
+  #ffeff0 100%
+);
   font-family: 'Phenomena', 'Helvetica Neue', sans-serif;
   color: #e0e0d0;
 }
@@ -80,8 +94,11 @@ body {
 import * as THREE from 'https://unpkg.com/three@0.152.2/build/three.module.js';
 
 // ---------------------
-// RENDERER
-const renderer = new THREE.WebGLRenderer({ antialias:true });
+/* RENDER */
+const renderer = new THREE.WebGLRenderer({
+  antialias: true,
+  alpha: true
+});
 renderer.setSize(innerWidth, innerHeight);
 renderer.setPixelRatio(Math.min(devicePixelRatio,2));
 renderer.shadowMap.enabled = true;
@@ -89,9 +106,10 @@ renderer.shadowMap.type = THREE.PCFSoftShadowMap;
 document.body.appendChild(renderer.domElement);
 
 // ---------------------
-// ESCENA
+/* ESCENA */
 const scene = new THREE.Scene();
-scene.fog = new THREE.Fog(0x040504,6,20);
+scene.background = null;
+scene.fog = new THREE.Fog(0x000000, 6, 20);
 
 // ---------------------
 // CÁMARA
@@ -99,10 +117,15 @@ const camera = new THREE.PerspectiveCamera(45, innerWidth/innerHeight, 0.1,100);
 camera.position.set(0,3,10);
 
 // ---------------------
-// SUELO
+/* SUELO */
 const ground = new THREE.Mesh(
   new THREE.PlaneGeometry(60,60),
-  new THREE.MeshStandardMaterial({ color: 0x4d4d4d, roughness: 0.98 })
+  new THREE.MeshStandardMaterial({
+    color: 0xee2a34,
+    transparent: true,
+    opacity: 0.25,
+    roughness: 1
+  })
 );
 ground.rotation.x=-Math.PI/2;
 ground.position.y=-1;
